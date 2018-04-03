@@ -1,0 +1,51 @@
+
+#contenedorDeLaAventura
+{
+	width:640px;
+	height: 100%;
+	
+	margin:0 auto;
+}
+
+p,h2{
+	margin-left: 30px;
+}
+.contenedorEntradaUsuario
+{
+	margin-left: 30px;
+}
+
+#baseContador
+{
+	width:640px;
+	height:11%;
+}
+
+.cuadroDeContador
+{
+	width:32.65%;
+}
+
+.etiquetaInformacion
+{
+	width: 100%;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 1.20rem;
+}
+.numerosInformacion
+{
+	
+	width: 100%;
+	margin-top:0px;
+	padding-top: 0px;
+}
+#cuadroObstaculo
+{
+	padding: 14px;
+}
+.textoObstaculos
+{
+	font-size: 1rem;	
+	line-height: 14px;
+}

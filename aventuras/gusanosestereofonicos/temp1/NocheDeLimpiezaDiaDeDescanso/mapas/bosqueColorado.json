@@ -1,0 +1,14 @@
+{
+"infoJuego":{
+	"titulo":"El bosque colorado",
+	"autor":"el-gusano-aventurero.es",
+	"version":"0.1",
+	"copyright":"Creative Common 2018 algunos derechos reservados",
+	"sinopsis":"El gran bosque Colorado"
+},
+"tituloMapa":"bosqueColorado",
+
+"entradaBosqueCrt":{"primero":true,"es":"cuarto","nombre":"","mostrarEntradaUsuario":false,
+			"descripcion":""
+		}
+}

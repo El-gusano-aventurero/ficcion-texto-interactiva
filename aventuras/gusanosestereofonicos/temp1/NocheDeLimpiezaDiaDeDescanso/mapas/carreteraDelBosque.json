@@ -1,0 +1,14 @@
+{
+"infoJuego":{
+	"titulo":"Carretera del bosque",
+	"autor":"el-gusano-aventurero.es",
+	"version":"0.1",
+	"copyright":"Creative Common 2018 algunos derechos reservados",
+	"sinopsis":"La carretera que va bordeando el bosque de CamBrill"
+},
+"tituloMapa":"carreteraBosque",
+
+"carreteraBordeBosqueCrt":{"primero":true,"es":"cuarto","nombre":"","mostrarEntradaUsuario":false,
+			"descripcion":""
+		}
+}

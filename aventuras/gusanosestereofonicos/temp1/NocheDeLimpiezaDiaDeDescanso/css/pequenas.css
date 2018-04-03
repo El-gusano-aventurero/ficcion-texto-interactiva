@@ -1,0 +1,81 @@
+.enlaceSeleccion
+{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.seleccion
+{
+	padding: 4px;
+	font-size: 1.10rem;
+}
+#contenedorDeLaAventura
+{
+	width:100%;
+	height: 100%;
+}
+p,h2{
+	margin-left: 30px;
+}
+h2
+{
+	font-size: 1.25rem;
+}
+p
+{
+	font-size: 1rem;
+}
+.contenedorEntradaUsuario
+{
+	margin-left: 30px;
+}
+.entradaUsuario
+{
+	width:92%;
+
+	font-size: 0.90rem;
+}
+.botonOk
+{
+	width: 48%;
+}
+.botonFavoritos
+{
+		
+	width: 48%;
+}
+
+#baseContador
+{
+	width:100%;
+	height:9.50%;
+}
+
+.cuadroDeContador
+{
+	width:32.20%;
+	height: 100%;
+}
+
+.etiquetaInformacion
+{
+	width: 100%;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 0.80rem;
+}
+.numerosInformacion
+{
+	width: 100%;
+	margin-top:0px;
+	padding-top: 0px;
+}
+#cuadroObstaculo
+{
+	padding: 6px;
+}
+.textoObstaculos
+{
+	font-size: 0.80rem;	
+	line-height: 8px;
+}

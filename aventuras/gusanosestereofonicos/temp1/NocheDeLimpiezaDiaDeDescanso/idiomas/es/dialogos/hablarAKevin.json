@@ -1,0 +1,40 @@
+{
+	"temaInicial":"inicio",
+
+	"inicio":
+	[
+		
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Ya tengo tu cita.","visible":true,"nuevoTema":"contento"}
+
+			]
+		}
+		
+	],
+
+	"contento":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: ¡Enserio!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Deberías hablar con ella."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Voy corriendo."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"}
+	]
+
+}

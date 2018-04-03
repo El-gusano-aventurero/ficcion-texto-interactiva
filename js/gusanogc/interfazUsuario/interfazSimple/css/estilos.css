@@ -1,0 +1,299 @@
+#cleal-float
+{
+	clear:left;
+}
+
+/*ESTILOS GENERALES EN TODOS LOS DISPOSITIVOS*/
+::-webkit-scrollbar {
+    display: none;
+}
+::-moz-scrollbar {
+    display: none;
+}
+body
+{
+	width: 100%;
+}
+
+.sin_barras
+{
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+.con_barras
+{
+	overflow-y:auto;
+	overflow-x:auto;
+}
+
+h2
+{
+	font-family: 'Boogaloo', cursive;
+	color:#CE0F0F;
+	padding: 1px;
+}
+
+p
+{
+	font-family: 'Architects Daughter';
+	color:white;
+	padding: 0px;
+	clear:left;
+}
+
+#salidaTexto
+{
+	overflow-y:auto;
+	background-color: black;	
+}
+
+#ideUsuario
+{
+	overflow: hidden;
+}
+.entradaUsuario
+{
+	font-family: 'Architects Daughter';
+	background-color: black;
+	color:white;
+	border:none;
+	border-color: black;
+	outline:0px;
+	float:left;
+}
+
+.entradaUsuario:focus{
+	outline:0px;
+}
+.promt
+{
+	float:left;
+	font-family: 'Architects Daughter';
+	color:white;
+}
+
+.botonOk
+{
+	font-family: 'Architects Daughter';
+	text-align: center;
+	float:left;
+	color: white;
+	border: 1px solid white;
+}
+.botonOk:hover
+{
+	background-color: #D8D8D8;
+	color:black;
+	cursor: pointer;
+}
+
+.botonOk:active
+{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: : 1px solid white;
+	border-right: : 1px solid white;	
+} 
+.botonFavoritos
+{
+	font-family: 'Architects Daughter';
+	text-align: center;
+	float: left;
+	color:white;
+	border: 1px solid white;
+}
+.botonFavoritos:hover
+{
+	background-color: #D8D8D8;
+	color:black;
+	cursor: pointer;
+}
+
+.botonFavoritos:active
+{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: : 1px solid white;
+	border-right: : 1px solid white;	
+} 
+
+.listaDeFavoritos
+{
+	clear: left;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.itemDeFavoritos
+{
+	margin:0 auto;
+	float:left;
+	
+}
+.enlaceDeFavoritos
+{
+	color: white;
+	
+	font-family: 'Architects Daughter';
+	padding: 2px;
+	display: block;
+}
+
+.enlaceDeFavoritos:hover
+{
+	background-color: #D8D8D8;
+	color:black;
+	cursor: pointer;
+}
+
+.enlaceDeFavoritos:active
+{
+	background-color: gray;
+	
+}
+
+.coma
+{
+	color:white;
+}
+
+.enlaceMas
+{
+
+	border-bottom:1px solid white;
+	color:white;
+	cursor: pointer;	
+}
+.enlaceMas:hover
+{
+
+	border-bottom:1px solid #060F5D;
+	color:#060F5D;
+	cursor: pointer;	
+}
+
+.baseEstadoPersonaje
+{
+	border:1px solid white;
+	background-color: #F8DD2F;
+	padding: 6px;
+	margin-top: 8px;
+	border-radius: 27px 27px 27px 27px;
+    -moz-border-radius: 27px 27px 27px 27px;
+    -webkit-border-radius: 27px 27px 27px 27px;
+}
+
+.seleccionDeCombate
+{
+	color:#F8DD2F;
+}
+
+.favoritosAcciones
+{
+	background-color: white;
+	color:black;
+	margin-bottom: 8px;
+	padding: 2px;
+	
+}
+
+.puntoInteres
+{
+	border-bottom: 1px solid #0BA7CE;
+	/*color:#0BA7CE;*/
+	cursor: pointer;
+}
+.puntoInteres:hover
+{
+	color:#0BA7CE;
+}
+.puntoInteres:active
+{
+
+	color:#0DEB3D;
+}
+
+.AccionDelUsuario
+{
+	color:#F77156;
+}
+
+.tituloEscenario
+{
+	color:#990b0f;
+	border-bottom: 1px solid white;
+}
+
+.actorEnEscena
+{
+	color:#c25904;
+}
+
+.objetoEnEscena
+{
+	color:#82EE84;
+}
+
+.contenidoObjeto
+{
+	color:#308AA8;
+}
+
+.salidasEnOpcion
+{
+	text-align: center;
+}
+
+.salidasEnOpcion a
+{
+	border: 1px solid #F8DD2F;
+	color:#F8DD2F;
+	text-align: center;
+}
+
+.salidasEnOpcion a:hover
+{
+	border-color:#B0DE4E;
+	color:#B0DE4E;
+}
+.salidasDeLaEscena
+{
+	color:#F8DD2F;
+}
+.descripcionEscenario
+{
+	color:white;
+}
+
+.despuesContenido
+{
+	color:#B0DE4E;
+}
+.controlTurnos
+{
+	color:#F8DD2F;
+}
+
+.enlaceSeleccion
+{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.seleccion
+{
+	border: 1px solid white;
+	color:white;
+}
+
+.seleccion:hover
+{
+	border-color:#B0DE4E;
+	color:#B0DE4E;
+}
+
+/*FIN PARA LOS TEXTOS QUE SE GENERAN DURANTE EL JUEGO*/
+
+/*FIN GENERALES EN TODOS LOS DISPOSITIVOS*/

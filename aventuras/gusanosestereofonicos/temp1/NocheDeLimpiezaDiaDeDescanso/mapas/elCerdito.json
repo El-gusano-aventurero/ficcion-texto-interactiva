@@ -1,0 +1,299 @@
+{
+"infoJuego":{
+	"titulo":"El Cerdito",
+	"autor":"el-gusano-aventurero.es",
+	"version":"0.1",
+	"copyright":"Creative Common 2018 algunos derechos reservados",
+	"sinopsis":"La tienda donde trabaja Brady"
+},
+"tituloMapa":"elCerdito",
+
+"elCerditoFrenteALaEntradaCrt":{"es":"cuarto","nombre":"el-cerdito-frente-a-la-entrada-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"el-cerdito-frente-a-la-entrada-descripcion","descripcionCorta":"el-cerdito-frente-a-la-entrada-descripcion-corta",
+			"conexiones":{
+							"Norte":{"descripcion":"el-cerdito-frente-a-la-entrada-salida-norte","cuarto":"elCerditoLineaDeCajasCrt","bloqueada":false},
+							"Este":{"descripcion":"el-cerdito-frente-a-la-entrada-salida-este","cuarto":"","bloqueada":true,"textoBloqueada":"el-cerdito-no-regreso-todavía"},
+							"Oeste":{"descripcion":"el-cerdito-frente-a-la-entrada-salida-oeste","cuarto":"","bloqueada":true,"textoBloqueada":"el-cerdito-estatuas-pueden-esperar"}
+					}
+		},
+		"elCerditoVitrinaCristalExterior":{"es":"objeto","esta":"elCerditoFrenteALaEntradaCrt","nombre":"vitrina","preDe":"cristal","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-vitrina-descripcion","genero":"femenino","singular":true,"seUneCon":{"tirar":"contra","usar":"con"}},
+
+		"elCerditoCaballetePinoExterior":{"es":"objeto","esta":"elCerditoFrenteALaEntradaCrt","nombre":"caballete","preDe":"pino","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-caballete-descripcion","genero":"masculino","singular":true,"seUneCon":{"usar":"con"}},
+
+		"elCerditoMontonDeRocasExterior":{"es":"objeto","esta":"elCerditoFrenteALaEntradaCrt","nombre":"montón","preDe":"rocas","atrezo":false,"scoger":false,
+					"descripcion":"el-cerdito-monton-de-rocar-descripción","genero":"masculino","singular":true},
+
+		"elCerditoestatuaConmemorativaExterior":{"es":"objeto","esta":"elCerditoFrenteALaEntradaCrt","nombre":"estatua","sinonimos":["conmemorativa"],"atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-estatua-conmemoratva-descripcion","genero":"femenino","singular":true},
+
+		"elCerditofundadoresExterior":{"es":"objeto","esta":"elCerditoFrenteALaEntradaCrt","nombre":"fundadores","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-fundadores-descripcion","genero":"masculino","singular":false},
+
+		"elCerditoPuertasExterior":{"es":"objeto","esta":"elCerditoFrenteALaEntradaCrt","nombre":"puertas","adjetivos":["automáticas"],"atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-puertas-descripcion","genero":"femenino","singular":false},
+
+		"elCerditoTiendaExterior":{"es":"objeto","esta":"elCerditoFrenteALaEntradaCrt","nombre":"tienda","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-tienda-descripcion","genero":"femenino","singular":true},
+
+"elCerditoLineaDeCajasCrt":{"primero":true,"es":"cuarto","nombre":"el-cerdito-linea-de-cajas-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"el-cerdito-linea-de-cajas-descripcion","descripcionCorta":"el-cerdito-linea-de-cajas-descripcion-corta",
+			"conexiones":{
+							"Norte":{"descripcion":"el-cerdito-linea-de-cajas-salida-norte","cuarto":"mapaDeSalaCrt","bloqueada":false},
+							"Este":{"descripcion":"el-cerdito-linea-de-cajas-salida-oeste","cuarto":"","bloqueada":true,"textoBloqueada":"el-cerdito-panaderia-cerrada"},
+							"Oeste":{"descripcion":"el-cerdito-linea-de-cajas-salida-este","cuarto":"","bloqueada":true,"textoBloqueada":"el-cerdito-oficina-cerrada"},
+							"Sur":{"descripcion":"el-cerdito-linea-de-cajas-salida-sur","cuarto":"elCerditoFrenteALaEntradaCrt","bloqueada":false}
+					}
+		},
+				"elCerditoTiendaLineaCajasObj":{"es":"objeto","esta":"elCerditoLineaDeCajasCrt","nombre":"tienda","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-tienda-descripcion","genero":"femenino","singular":true},
+
+				"elCerditoSuperMercadoLineaCajasObj":{"es":"objeto","esta":"elCerditoLineaDeCajasCrt","nombre":"supermercado","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-tienda-descripcion","genero":"masculino","singular":true},
+
+				"elCerditoPasillosLineaCajasObj":{"es":"objeto","esta":"elCerditoLineaDeCajasCrt","nombre":"pasillos","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-pasillos-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoMueblesLineaCajasObj":{"es":"objeto","esta":"elCerditoLineaDeCajasCrt","nombre":"muebles","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-muebles-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoBaldasLineaCajasObj":{"es":"objeto","esta":"elCerditoLineaDeCajasCrt","nombre":"baldas","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-baldas-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoCajasRegistradorasLineaCajasObj":{"es":"objeto","esta":"elCerditoLineaDeCajasCrt","nombre":"cajas","adjetivos":["registradoras"],"atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-cajas-registradoras-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoCartelesEnrolladosObj":{"es":"objeto","esta":"elCerditoLineaDeCajasCrt","nombre":"carteles","adjetivos":["enrollados"],"atrezo":false,"scoger":true,
+					"descripcion":"el-cerdito-carteles-descripcion","genero":"masculino","singular":false,"visible":false},
+
+"mapaDeSalaCrt":{"primero":true,"es":"cuarto","nombre":"el-cerdito-mapa-tienda-titulo","mostrarEntradaUsuario":true,"mostrarSalidasEn":"vertical",
+			"descripcion":"el-cerdito-mapa-tienda-descripcion","descripcionCorta":"el-cerdito-mapa-tienda-descripcion",
+			"conexiones":{
+							"Pasillo_A":{"descripcion":"Pasillo_A","cuarto":"elCerditoPasilloACrt","bloqueada":false},
+							"Pasillo_B":{"descripcion":"Pasillo_B","cuarto":"elCerditoPasilloBCrt","bloqueada":false},
+							"Pasillo_C":{"descripcion":"Pasillo_C","cuarto":"elCerditoPasilloCCrt","bloqueada":false},
+							"Pasillo_D":{"descripcion":"Pasillo_D","cuarto":"elCerditoPasilloDCrt","bloqueada":false},
+							"Regresar":{"descripcion":"Regresar","cuarto":"elCerditoLineaDeCajasCrt","bloqueada":false}
+					}
+		},
+
+"elCerditoPasilloACrt":{"es":"cuarto","nombre":"el-cerdito-pasillo-a-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"el-cerdito-pasillo-a-descripcion","descripcionCorta":"el-cerdito-pasillo-a-descripcion-corta",
+			"conexiones":{
+							"Norte":{"descripcion":"el-cerdito-pasillo-salida-norte","cuarto":"elCerditoPasilloFriosCongeladosCrt","bloqueada":false},
+							"Sur":{"descripcion":"el-cerdito-pasillo-salida-sur","cuarto":"elCerditoLineaDeCajasCrt","bloqueada":false}
+					}
+		},
+				"elCerditoMueblesPasilloAObj":{"es":"objeto","esta":"elCerditoPasilloACrt","nombre":"muebles","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-muebles-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoBaldasPasilloAObj":{"es":"objeto","esta":"elCerditoPasilloACrt","nombre":"baldas","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-baldas-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoRefrescosPasilloAObj":{"es":"objeto","esta":"elCerditoPasilloACrt","nombre":"refrescos","preDe":"cola","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-refrescos-de-cola-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoCervezasPasilloAObj":{"es":"objeto","esta":"elCerditoPasilloACrt","nombre":"cervezas","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-cervezas-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoProductosPasilloAObj":{"es":"objeto","esta":"elCerditoPasilloACrt","nombre":"productos","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-productos-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoMangoPasilloAObj":{"es":"objeto","esta":"elCerditoPasilloACrt","nombre":"mango","preDe":"escoba","adjetivos":["roto"],"atrezo":false,"scoger":true,
+					"descripcion":"el-cerdito-mango-de-madera","genero":"masculino","singular":true,"visible":false},
+
+
+"elCerditoPasilloBCrt":{"es":"cuarto","nombre":"el-cerdito-pasillo-b-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"el-cerdito-pasillo-b-descripcion","descripcionCorta":"el-cerdito-pasillo-b-descripcion-corta",
+			"conexiones":{
+							"Norte":{"descripcion":"el-cerdito-pasillo-salida-norte","cuarto":"elCerditoPasilloFriosCongeladosCrt","bloqueada":false},
+							"Sur":{"descripcion":"el-cerdito-pasillo-salida-sur","cuarto":"elCerditoLineaDeCajasCrt","bloqueada":false}
+					}
+		},
+				"elCerditoBaldasPasilloBObj":{"es":"objeto","esta":"elCerditoPasilloBCrt","nombre":"baldas","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-baldas-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoProductosPasilloBObj":{"es":"objeto","esta":"elCerditoPasilloBCrt","nombre":"género","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-productos-descripcion","genero":"masculino","singular":true},
+
+				"elCerditoPasilloPasilloBObj":{"es":"objeto","esta":"elCerditoPasilloBCrt","nombre":"pasillo","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-pasillo-en-pasillo-b-descripcion","genero":"masculino","singular":true},
+
+				"elCerditoLechePasilloBObj":{"es":"objeto","esta":"elCerditoPasilloBCrt","nombre":"brik","preDe":"leche","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-brick-de-leche-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoBatidoPasilloBObj":{"es":"objeto","esta":"elCerditoPasilloBCrt","nombre":"batido","preDe":"fresa","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-batido-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoZumosPasilloBObj":{"es":"objeto","esta":"elCerditoPasilloBCrt","nombre":"zumos","preDe":"Tetra-Brik","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-zumos-descripcion","genero":"masculino","singular":false},
+
+"elCerditoPasilloCCrt":{"es":"cuarto","nombre":"el-cerdito-pasillo-c-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"el-cerdito-pasillo-c-descripcion","descripcionCorta":"el-cerdito-pasillo-c-descripcion-corta",
+			"conexiones":{
+							"Norte":{"descripcion":"el-cerdito-pasillo-salida-norte","cuarto":"elCerditoPasilloFriosCongeladosCrt","bloqueada":false},
+							"Sur":{"descripcion":"el-cerdito-pasillo-salida-sur","cuarto":"elCerditoLineaDeCajasCrt","bloqueada":false}
+					}
+		},
+
+				"elCerditoPasilloPasilloCObj":{"es":"objeto","esta":"elCerditoPasilloCCrt","nombre":"pasillo","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-pasillo-en-pasillo-b-descripcion","genero":"masculino","singular":true},
+
+				"elCerditoTiendaPasilloCObj":{"es":"objeto","esta":"elCerditoPasilloCCrt","nombre":"tienda","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-tienda-descripcion","genero":"femenino","singular":true},
+
+				"elCerditoProductosPasilloCObj":{"es":"objeto","esta":"elCerditoPasilloCCrt","nombre":"artículos","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-productos-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoPapelPasilloCObj":{"es":"objeto","esta":"elCerditoPasilloCCrt","nombre":"rollo","preDe":"papel","adjetivos":["higiénico"],"atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-papel-higienico-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoDetergentePasilloCObj":{"es":"objeto","esta":"elCerditoPasilloCCrt","nombre":"detergentes","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-detergentes-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoLejiasPasilloCObj":{"es":"objeto","esta":"elCerditoPasilloCCrt","nombre":"lejías","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-lejias-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoExpositorDeCartonPasilloCObj":{"es":"objeto","esta":"elCerditoPasilloCCrt","nombre":"expositor","preDe":"cartón","atrezo":false,"scoger":false,
+					"descripcion":"el-cerdito-expositor-descripcion","genero":"masculino","singular":true,"visible":false,
+					"contenedor":true,"abrirOcerrar":[false,false],"abiertoOcerrado":"abierto","bolsillo":["elCerditoRolloDeCuerdaPasilloCObj"]},
+
+				"elCerditoRolloDeCuerdaPasilloCObj":{"es":"objeto","esta":"elCerditoExpositorDeCartonPasilloCObj","nombre":"cuerda","atrezo":false,"scoger":true,
+					"descripcion":"el-cerdito-rollo-cuerda-descripcion","genero":"femenino","singular":true,"visible":false},
+
+
+
+
+"elCerditoPasilloDCrt":{"es":"cuarto","nombre":"el-cerdito-pasillo-d-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"el-cerdito-pasillo-d-descripcion","descripcionCorta":"el-cerdito-pasillo-d-descripcion-corta",
+			"conexiones":{
+							"Norte":{"descripcion":"el-cerdito-pasillo-salida-norte","cuarto":"elCerditoPasilloFriosCongeladosCrt","bloqueada":false},
+							"Sur":{"descripcion":"el-cerdito-pasillo-salida-sur","cuarto":"elCerditoLineaDeCajasCrt","bloqueada":false}
+					}
+		},
+
+				"elCerditoConservasPasilloDObj":{"es":"objeto","esta":"elCerditoPasilloDCrt","nombre":"latas","preDe":"conservas","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-conservas-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoComidaEnlatadaPasilloDObj":{"es":"objeto","esta":"elCerditoPasilloDCrt","nombre":"comida","adjetivos":["enlatada"],"atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-enlatadas-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoAceitePasilloDObj":{"es":"objeto","esta":"elCerditoPasilloDCrt","nombre":"garrafas","preDe":"aceite","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-aceite-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoLegumbresPasilloDObj":{"es":"objeto","esta":"elCerditoPasilloDCrt","nombre":"legumbres","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-legumbres-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoBaldasPasilloDObj":{"es":"objeto","esta":"elCerditoPasilloDCrt","nombre":"estantes","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-baldas-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoCajaPasilloDObj":{"es":"objeto","esta":"elCerditoPasilloDCrt","nombre":"caja","adjetivos":["vacía"],"atrezo":false,"scoger":true,
+					"descripcion":"el-cerdito-cajas-vacias-descripcion","genero":"femenino","singular":true,"visible":false},
+
+
+
+
+"elCerditoPasilloFriosCongeladosCrt":{"es":"cuarto","nombre":"frios-y-congelados-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"frios-y-congelados-descripcion","descripcionCorta":"frios-y-congelados-descripcion-corta",
+			"conexiones":{
+							"Oeste":{"descripcion":"frios-y-congelados-salida-oeste","cuarto":"","bloqueada":true,"textoBloqueada":"el-cerdito-no-incendio"},
+							"Sur":{"descripcion":"frios-y-congelados-salida-sur","cuarto":"mapaDeSalaSupCrt","bloqueada":false},
+							"bajar":{"descripcion":"frios-y-congelados-salida-bajar","cuarto":"elCerditoAlmacenCrt","bloqueada":false}
+					}
+		},
+
+				"elCerditoVitrinasFriosCongeladosObj":{"es":"objeto","esta":"elCerditoPasilloFriosCongeladosCrt","nombre":"vitrinas","adjetivos":["refigeradas"],"atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-vitrinas-refrigeradas-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoFiambreFriosCongeladosObj":{"es":"objeto","esta":"elCerditoPasilloFriosCongeladosCrt","nombre":"fiambre","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-fiambre-descripcion","genero":"masculino","singular":true},
+
+				"elCerditoYoguresFriosCongeladosObj":{"es":"objeto","esta":"elCerditoPasilloFriosCongeladosCrt","nombre":"yogures","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-yogures-descripcion","genero":"masculino","singular":false},
+
+				"elCerditoPizzasFriosCongeladosObj":{"es":"objeto","esta":"elCerditoPasilloFriosCongeladosCrt","nombre":"pizzas","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-pizas-mal-estado-descripcion","genero":"femenino","singular":false},
+
+				"elCerditoIslasCongeladoFriosCongeladosObj":{"es":"objeto","esta":"elCerditoPasilloFriosCongeladosCrt","nombre":"islas","preDe":"congelado","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-islas-congelado-descripcion","genero":"femenino","singular":false},
+				
+				"elCerditoIslasMuebleRefrigeradoCongeladosObj":{"es":"objeto","esta":"elCerditoPasilloFriosCongeladosCrt","nombre":"mueble","preDe":"refrigerado","atrezo":false,"scoger":false,
+					"descripcion":"el-cerdito-mueble-refrigerado-descripcion","genero":"masculino","singular":true,"visible":false,
+					"contenedor":true,"abrirOcerrar":[false,false],"abiertoOcerrado":"abierto","bolsillo":["elCerditoQuesoCongeladosObj"]},
+
+				"elCerditoQuesoCongeladosObj":{"es":"objeto","esta":"elCerditoIslasMuebleRefrigeradoCongeladosObj","nombre":"cuña","preDe":"queso","atrezo":false,"scoger":true,
+					"descripcion":"el-cerdito-queso-mal-oliente-descripcion","genero":"femenino","singular":true,"visible":false},
+
+
+"elCerditoAlmacenCrt":{"es":"cuarto","nombre":"el-cerdito-almacen-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"el-cerdito-almacen-descripcion","descripcionCorta":"el-cerdito-almacen-descripcion-corta",
+			"conexiones":{
+							"subir":{"descripcion":"el-cerdito-almacen-salida-subir","cuarto":"elCerditoPasilloFriosCongeladosCrt","bloqueada":false},
+							"entrar":{"descripcion":"el-cerdito-almacen-salida-entrar","cuarto":"elCerditoRetreteCrt","bloqueada":true,"textoBloqueada":"el-cerdito-puerta-bloqueada"}
+					}
+		},
+		"elCerditoEstanteriasAlmacen":{"es":"objeto","esta":"elCerditoAlmacenCrt","nombre":"estanterías","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-estanterias-descripcion","genero":"femenino","singular":false,
+					"contenedor":true,"abrirOcerrar":[false,false],"abiertoOcerrado":"abierto","bolsillo":["elCerditoGuantesAlmacen"]},
+
+		"elCerditoCajaDeHerramientasAlmacen":{"es":"objeto","esta":"elCerditoAlmacenCrt","nombre":"caja","preDe":"herramientas","atrezo":false,"scoger":false,
+					"descripcion":"el-cerdito-estanterias-descripcion","genero":"femenino","singular":true,"visible":false,
+					"contenedor":true,"abrirOcerrar":[true,true],"abiertoOcerrado":"cerrado","bolsillo":["elCerditoPalancaAlmacen"]},
+
+		"elCerditoPalancaAlmacen":{"es":"objeto","esta":"elCerditoCajaDeHerramientasAlmacen","nombre":"palanca","atrezo":false,"scoger":true,
+					"descripcion":"el-cerdito-palanca-descripcion","genero":"femenino","singular":true,"visible":false},
+
+
+		"elCerditoGuantesAlmacen":{"es":"objeto","esta":"elCerditoEstanteriasAlmacen","nombre":"guantes","preDe":"resistentes","atrezo":false,"scoger":true,
+					"descripcion":"el-cerdito-guantes-descripcion","genero":"masculino","singular":false,"visible":false},
+
+		"elCerditoRatoneraAlmacen":{"es":"objeto","esta":"elCerditoAlmacenCrt","nombre":"ratonera","atrezo":false,"scoger":false,
+					"descripcion":"el-cerdito-ratonera-descripcion","genero":"femenino","seUneCon":{"usar":"con"},"singular":true},
+
+		"elCerditoPaleRefrescosAlmacen":{"es":"objeto","esta":"elCerditoAlmacenCrt","nombre":"palé","preDe":"refrescos","atrezo":false,"scoger":false,
+					"descripcion":"el-cerdito-refrescos-descripcion","genero":"masculino","singular":true},
+
+		"elCerditoPuertaRetrete":{"es":"objeto","esta":"elCerditoAlmacenCrt","nombre":"puerta","preDe":"retrete","atrezo":false,"scoger":false,
+					"descripcion":"el-cerdito-puerta-retrete-descripcion","genero":"femenino","singular":true,"seUneCon":{"usar":"con"},"visible":false},
+
+		"elCerditoCasiTrampaObj":{"es":"objeto","esta":"elCerditoAlmacenCrt","nombre":"trampa","preDe":"ratas","atrezo":false,"scoger":false,
+					"descripcion":"el-cerdito-casi-trampa-descripcion","genero":"femenino","singular":true,"seUneCon":{"usar":"con"},"visible":false},
+
+"elCerditoRetreteCrt":{"es":"cuarto","nombre":"el-cerdito-retrete-titulo","mostrarEntradaUsuario":true,
+			"descripcion":"el-cerdito-retrete-descripcion","descripcionCorta":"el-cerdito-retrete-descripcion-corta",
+			"conexiones":{
+							"salir":{"descripcion":"el-cerdito-retrete-salida-salir","cuarto":"elCerditoAlmacenCrt","bloqueada":false}
+					}
+		},
+
+		"elCerditoLavaboRetrete":{"es":"objeto","esta":"elCerditoRetreteCrt","nombre":"lavabo","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-lavabo-descripcion","genero":"masculino","singular":true},
+		
+		"elCerditoRetreteRetrete":{"es":"objeto","esta":"elCerditoRetreteCrt","nombre":"retrete","atrezo":true,"scoger":false,
+					"descripcion":"el-cerdito-retrete-huele-descripcion","genero":"masculino","singular":true},
+
+		"elCerditoDesatascadorRetrete":{"es":"objeto","esta":"elCerditoRetreteCrt","nombre":"desatascador","atrezo":false,"scoger":true,
+					"descripcion":"el-cerdito-desatascador-descripcion","genero":"masculino","singular":true,"visible":false},
+
+
+"mapaDeSalaSupCrt":{"primero":true,"es":"cuarto","nombre":"el-cerdito-mapa-tienda-titulo","mostrarEntradaUsuario":true,"mostrarSalidasEn":"vertical",
+			"descripcion":"el-cerdito-mapa-tienda-descripcion","descripcionCorta":"el-cerdito-mapa-tienda-descripcion",
+			"conexiones":{
+							"Pasillo_A":{"descripcion":"Pasillo_A","cuarto":"elCerditoPasilloACrt","bloqueada":false},
+							"Pasillo_B":{"descripcion":"Pasillo_B","cuarto":"elCerditoPasilloBCrt","bloqueada":false},
+							"Pasillo_C":{"descripcion":"Pasillo_C","cuarto":"elCerditoPasilloCCrt","bloqueada":false},
+							"Pasillo_D":{"descripcion":"Pasillo_D","cuarto":"elCerditoPasilloDCrt","bloqueada":false},
+							"Regresar":{"descripcion":"Regresar","cuarto":"elCerditoPasilloFriosCongeladosCrt","bloqueada":false}
+					}
+		},
+
+"nicholasAct":{"es":"actor","esta":"elCerditoPasilloBCrt","conocido":true,
+	"nombre":"Nicholas","descripcion":"bradyDescripcion","genero":"masculino"},
+
+"brendaAct":{"es":"actor","esta":"elCerditoPasilloCCrt","conocido":true,
+	"nombre":"Brenda","descripcion":"bradyDescripcion","genero":"masculino"},
+
+"kevinAct":{"es":"actor","esta":"elCerditoPasilloACrt","conocido":true,
+	"nombre":"Kevin","descripcion":"bradyDescripcion","genero":"masculino"}
+}

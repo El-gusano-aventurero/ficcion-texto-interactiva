@@ -1,0 +1,104 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Coges la rata por la cola y te dispones a sacarla de la tienda..."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["pero primero, decides mostrar tu captura al resto de tu equipo."],
+			"clases":"fundido_entrada"
+		},
+
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Se la enseño a..."],
+			"clases":"fundido_entrada"
+		},
+
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Brenda.","visible":true,"nuevoTema":"brenda"},
+				{"clave":"2","cadena":"Kevin.","visible":true,"nuevoTema":"kevin"},
+				{"clave":"3","cadena":"Nicholas.","visible":true,"nuevoTema":"nicholas"}
+			]
+		}
+	],
+	"brenda":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Regresas a la sala de la tienda, y te diriges hacia Brenda."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: ¡Qué asco! ¡Quita a ese bicho de mi cara!"],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"rataEnElExterior"}
+	],
+	"kevin":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Regresas a la sala de la tienda, y te diriges hacia Kevin."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: ¡No! ¡No! ¡Por favor! ¡No soporto las ratas!"],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"rataEnElExterior"}
+	],
+	"nicholas":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Regresas a la sala de la tienda, y te diriges hacia Nicholas."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: ¡Asqueroso rata! Ya eres nuestra. Bien echo Brady"],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"rataEnElExterior"}
+	],
+	"rataEnElExterior":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Ya en el exterior de la tienda, decides soltar a la rata."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: ¡Corre! ¡Míster rata! ¡Corre!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["La rata se aleja por el Sur"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"ejecutar_evento","evento":"sacar_rata"}
+	]
+}

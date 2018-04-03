@@ -1,0 +1,295 @@
+.bradyAct
+{
+	color:#531010;
+}
+
+.nicholasAct
+{
+	color:#220055;
+}
+
+.kevinAct
+{
+	color:#004455;
+}
+
+.brendaAct
+{
+	color:#aa0044;
+}
+
+.peetAct
+{
+	color:#552200;
+}
+
+
+.desvanecerDe800
+{
+	transition-property: opacity;
+	transition-duration: 800ms;
+	opacity: 0;
+}
+
+#salidaTexto
+{
+	background-image: url("https://www.el-gusano-aventurero.es/aventuras/gusanosestereofonicos/temp1/NocheDeLimpiezaDiaDeDescanso/css/hojaLibro.png");
+	background-repeat: repeat-y;
+	background-attachment: local;
+}
+
+#baseContador
+{
+	background-color: #550000;
+	margin:0 auto;
+
+}
+
+.etiquetaInformacion
+{
+	text-align: center;
+	color:white;
+	margin-left: 0px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.numerosInformacion
+{
+	text-align: center;
+	color:white;
+	margin-left: 0px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.cuadroDeContador
+{
+	float:left;
+	background-color: #162d50;
+	border:2px solid white;
+}
+
+#cuadroObstaculo
+{
+	-webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+	border-radius: 80px;
+	position: absolute;
+	border: 2px solid white;
+	background-color:#162d50;	
+	cursor: pointer;
+}
+
+#cuadroObstaculo:hover
+{
+	border: 2px solid black;
+}
+.textoObstaculos
+{
+	font-family: 'Boogaloo', cursive;
+	text-align: center;
+	margin-left: 0px;
+	margin-bottom:4px;
+}
+
+
+
+body
+{
+	background-color: black;
+}
+
+
+p{
+	font-family: 'Boogaloo', cursive;
+	font-size: 1.30rem;
+	margin-bottom: 0.70rem;
+}
+p,h2{
+	text-align: justify;
+}
+.contenedorEntradaUsuario
+{
+	color:black;
+}
+.entradaUsuario
+{
+	font-family: 'Boogaloo', cursive;
+	background-color: transparent;
+	color:black;
+}
+
+.tituloEscenario
+{
+	color:#610B21;
+	border-bottom: 2px solid #610B21;
+}
+.descripcionEscenario
+{
+	color:black;
+}
+.despuesContenido
+{
+	color:#550022;
+}
+.AccionDelUsuario
+{
+	color:#550000;
+}
+.salidasDeLaEscena
+{
+	color:#383c00;
+}
+.contenidoObjeto
+{
+	color:#360033;
+}
+
+.objetoEnEscena
+{
+	color:#87220c;
+}
+/***************************************************************************************/
+.salidasEnOpcion a
+{
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #550022;
+	color:#550022;
+}
+
+.salidasEnOpcion a:hover
+{
+	border-color:#002744;
+	color:#002744;
+}
+/***************************************************************************************/
+.seleccion
+{
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #550022;
+	color:#550022;
+}
+
+.seleccion:hover
+{
+	border-color:#002744;
+	color:#002744;
+}
+/***************************************************************************************/
+.puntoInteres
+{
+	border-bottom: 2px solid #571811;
+}
+.puntoInteres:hover
+{
+	color:#002744;
+}
+.puntoInteres:active
+{
+
+	color:#383c00;
+}
+/****************************************************************************************/
+.coma
+{
+	color:black;
+}
+
+.enlaceMas
+{
+
+	border-bottom:2px solid #550000;
+	color:#550000;
+	cursor: pointer;	
+}
+.enlaceMas:hover
+{
+
+	border-bottom:2px solid #060F5D;
+	color:#060F5D;
+	cursor: pointer;	
+}
+/**************************************************************************************/
+.listaDeFavoritos
+{
+	clear: left;
+	border-top: 2px solid #550022;
+	border-bottom: 2px solid #550022;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.enlaceDeFavoritos
+{
+	color: #550022;
+	font-family: 'Boogaloo', cursive;
+	padding: 2px;
+	display: block;
+}
+
+.enlaceDeFavoritos:hover
+{
+
+	color:#382e00;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.enlaceDeFavoritos:active
+{
+	color: #550022;
+}
+
+
+
+.promt
+{
+	float:left;
+	font-family: 'Boogaloo', cursive;
+	color:#550022;
+}
+
+.botonOk
+{
+	font-family: 'Boogaloo', cursive;
+	text-align: center;
+	float:left;
+	color: #550022;
+	border: 2px solid #550022;
+}
+.botonOk:hover
+{
+	color: #550022;
+	border: 2px solid #002744;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.botonOk:active
+{
+	border: 2px solid #382e00;	
+} 
+
+.botonFavoritos
+{
+	font-family: 'Boogaloo', cursive;
+	text-align: center;
+	float:left;
+	color: #550022;
+	border: 2px solid #550022;
+}
+.botonFavoritos:hover
+{
+	color:#002744;
+	border: 2px solid #002744;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.botonFavoritos:active
+{
+	border: 2px solid #382e00;	
+} 

@@ -1,0 +1,97 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Decides esconderte tras el palé, sin hacer ruido, para hacer que la rata salga a por el queso."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["El tiempo se te hace eterno..."],
+			"clases":"fundido_entrada",
+			"tamaFuente":"2.10rem",
+			"tiempo":2000
+		},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Te quedas dormido..."],
+			"clases":"fundido_entrada",
+			"tiempo":2000
+		},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["El tiempo pasa volando."],
+			"clases":"fundido_entrada",
+			"tamaFuente":"2.10rem",
+			"tiempo":2000
+		},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Abres un poco los ojos para descubrir que la rata se está comiendo el queso"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Seguir durmiendo.","visible":true,"nuevoTema":"dormir"},
+				{"clave":"2","cadena":"Tirar de la cuerda.","visible":true,"nuevoTema":"tirar"}
+			]
+		}
+	],
+	"dormir":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Decides seguir durmiendo..."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["El tiempo pasa volando."],
+			"clases":"fundido_entrada",
+			"tamaFuente":"2.10rem",
+			"tiempo":2000
+		},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Te despiertas de la fugaz siesta, para descubrir que la rata se ha comido el queso."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["¡Ñiiii! ¡Ñiiii! Suenan los chillidos de un animalillo atascado."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"ejecutar_evento","evento":"atrapar_a_la_rata"}		
+		
+	],
+	"tirar":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Abres los ojos, y tiras de la cuerda dejando a la rata atrapada en el interior de la caja."],
+			"clases":"fundido_entrada"
+		},
+		
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Te acercas a la caja y la levantas por un lado."],
+			"clases":"fundido_entrada"
+		},	
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"ejecutar_evento","evento":"dialogo_coger_rata"}
+	]
+	
+}

@@ -1,0 +1,40 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: ¿Qué quieres? Estoy muy ocupado."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Nicholas, se gira hasta plantarse de cara a ti."],
+			"clases":"fundido_entrada",
+			"tiempo":4000
+		},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"No puedo abrir la vitrina sin la llave...","visible":true,"nuevoTema":"obtenerLlave"}
+			]
+		}
+	],
+	"obtenerLlave":
+	[
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Perdona chico, se me fue de la cabeza."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Aquí la tienes, y ahora ¡Vuelve al trabajo!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"}
+	]
+}

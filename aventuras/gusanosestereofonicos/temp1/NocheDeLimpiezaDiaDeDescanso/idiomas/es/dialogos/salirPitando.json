@@ -1,0 +1,113 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Decides salir pitando con tu bicicleta por la carretera, pero ni estás en forma, ni te quedan energías. "],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Los pedales pesan como yunques…"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"peetAct",
+			"cadena":["Peet: ¡Dónde crees que vas mierdecilla!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Vas tan lento que es imposible escapar. Peet te empuja y te tira al suelo."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Peet: ¡Ahora si que la has liado!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Pero ¿Qué haces?","visible":true,"nuevoTema":"peetCabreado"}
+			]
+		}
+	],
+	"peetCabreado":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Peet te levanta del suelo, está bastante cabreado."],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"callate"}
+	],
+	"callate":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{
+			"tipo":"peetAct",
+			"cadena":["Peet: ¡Cállate!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Acto seguido Peet se acerca, te sujeta de cuello y te empieza a empujar hasta dejarte acorralado contra un árbol cercano.",
+						" Mientras esto ocurre tú, pides clemencia."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"No, no ¿Qué vas a hacer?","visible":true,"nuevoTema":"advertencia"},
+				{"clave":"1","cadena":"Para... de verdad... esto no tiene gracia...","visible":true,"nuevoTema":"advertencia"},
+				{"clave":"1","cadena":"No puedo respirar ¡Aggggg! Déjame Peet.","visible":true,"nuevoTema":"advertencia"}
+			]
+		}
+	],
+	"advertencia":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{
+			"tipo":"peetAct",
+			"cadena":["Escuchame bien Brady, Si me vuelven a contar o te vuelvo a ver charlando con Lorna, Lo de hoy va a ser una simple anécdota para ti."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Después de esas palabras Peet, te propina un puñetazo en la boca del estomago. Caes al suelo retorciéndote de dolor."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Tirado en el suelo, observas como Peet arranca la grua y antes de marchar, pasa repetidamente por encima de tu bicicleta, dejándola inservible."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"peetAct",
+			"cadena":["Peet: ¡Y recuerda! Esta noche voy a estar de ronda por todo el pueblo y si vuelvo a verte ¡Te vas a enterar!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Peet se aleja bajando por la carretera."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"ejecutar_evento","evento":"terminar_secuencia"}
+
+	]
+}

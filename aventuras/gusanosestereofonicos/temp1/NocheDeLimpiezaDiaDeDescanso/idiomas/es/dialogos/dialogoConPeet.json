@@ -1,0 +1,108 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+		{
+			"tipo":"peetAct",
+			"cadena":["Peet: Y dime, Brady ¿Qué tienes que decir al respecto?"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Pues veras Peet..."],
+			"clases":"fundido_entrada",
+			"tiempo":2000
+		},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Yo solo me tomaba unas cervezas...","visible":true,"nuevoTema":"soloTomabaCervezas"}
+			]
+		}
+	],
+	"soloTomabaCervezas":
+	[
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Te juro que yo sólo me tomaba unas cervezas… y bueno… Lorna estaba trabajando aquel ",
+						"día y se las pedí a ella ¡Pero nada más!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"peetAct",
+			"cadena":["Peet: No sé, no sé, me contaron que tu encuentro con Lorna fue algo más que unas simples cervezas."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: ¡Qué va Peet! ¡Que va!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"nuevoTema":"callate"}
+	],
+	"callate":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{
+			"tipo":"peetAct",
+			"cadena":["Peet: ¡Cállate!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Acto seguido Peet se acerca, te sujeta del cuello y te empieza a empujar hasta dejarte acorralado contra un árbol cercano.",
+						" Mientras esto ocurre tú, pides clemencia."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"No, no ¿Qué vas a hacer?","visible":true,"nuevoTema":"advertencia"},
+				{"clave":"1","cadena":"Para... de verdad... esto no tiene gracia...","visible":true,"nuevoTema":"advertencia"},
+				{"clave":"1","cadena":"No puedo respirar ¡Aggggg! Déjame Peet.","visible":true,"nuevoTema":"advertencia"}
+			]
+		}
+	],
+	"advertencia":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{
+			"tipo":"peetAct",
+			"cadena":["Escuchame bien Brady, Si me vuelven a contar o te vuelvo a ver charlando con Lorna, Lo de hoy va a ser una simple anécdota para ti."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Después de esas palabras Peet, te propina un puñetazo en la boca del estomago. Caes al suelo retorciéndote de dolor."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Tirado en el suelo, observas como Peet arranca la grua y antes de marchar, pasa repetidamente por encima de tu bicicleta, dejándola inservible."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"peetAct",
+			"cadena":["Peet: ¡Y recuerda! Esta noche voy a estar de ronda por todo el pueblo y si vuelvo a verte ¡Te vas a enterar!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Peet se aleja bajando por la carretera."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"ejecutar_evento","evento":"terminar_secuencia"}
+
+	]
+}

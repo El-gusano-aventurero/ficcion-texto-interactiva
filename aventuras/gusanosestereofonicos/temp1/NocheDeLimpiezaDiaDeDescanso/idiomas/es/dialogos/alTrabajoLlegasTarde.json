@@ -1,0 +1,293 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Nada más entrar tu jefe, Nicholas, arremete verbalmente contra ti."],
+			"clases":"fundido_entrada",
+			"tiempo":1000
+		},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Maldita sea Brady, contigo siempre igual, y dime ¿Qué a sido esta vez?"],
+			"clases":"fundido_entrada",
+			"tiempo":2000
+		},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Te quedas pensativo antes de dar una respuesta."],
+			"clases":"fundido_entrada",
+			"tiempo":1000
+		},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Mi perro a escavado en el jardín de mi vecino y he tenido que arreglar el destrozo.","visible":true,"nuevoTema":"ElJardínEstabaBien"},
+				{"clave":"2","cadena":"Mi amigo Busty sufrió un accidente y he tenido que pasarme por el hospital.","visible":true,"nuevoTema":"BustyEntrabaEnElMono"},
+				{"clave":"3","cadena":"Me quedé dormido después de comer y las horas se fueron volando.","visible":true,"nuevoTema":"muyPropioDeTi"}
+			]
+		}
+		
+	],
+	
+	"ElJardínEstabaBien":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Que mentiroso. Pase por tu casa para recogerte y el jardín de tu vecino estaba en perfecto estado. Demonios Brady, Aun me duele la mano de aporrear tu puerta."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: ¡Así qué mientes!  ¡A mí! Que he mantenido tu puesto de trabajo durante todos estos años a pesar de tus innumerables faltas."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Mientras escuchas todo esto, balbuceas entre dientes."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Muchas gracias Kevin"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Brenda corta la bronca, en seco, con uno de sus gritos."],
+			"clases":"fundido_entrada",
+			"tiempo":3000
+		},
+		
+		{
+			"tipo":"brendaAct",
+			"cadena":["¡Ya está bien!"],
+			"alinear":"center",
+			"tamaFuente":"2rem",
+			"tiempo":2000,
+			"clases":"fundido_entrada"
+		},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: No se vosotros, pero yo si no duermo mis ocho horas, se me estropea el pelo y me salen unas ojeras terribles."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"aTrabajar"}
+	],
+
+
+	"BustyEntrabaEnElMono":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Brenda desmiente de inmediato tu falsa"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: ¡Busty esta en perfecto estado! Lo vi entrando en el Mono Loco mientras mi novio me traía hasta aquí ¡En su gran moto!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: ¡Que ruin! Usar a tus amigos para no reconocer tus propios errores."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: ¡Brady! Sabes que te he cuidado durante todos estos años y encima me mientes. Si no estuviéramos en un momento tan delicado, pensaría seriamente si mantener tu puesto de trabajo. "],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Maldita sea Brenda, podrías callarte un ratito."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"aTrabajar"}
+	],
+
+	"muyPropioDeTi":
+	[	
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: ¡No puede ser! Brady reconociendo un error"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Muy propio de ti, Quedarte dormido en cualquier parte mientras todo te importa bien poco."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Tranquilo Kevin, por lo menos esta vez a reconocido su error."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Además, pronto se va a llevar su merecido, Je,Je,Je…"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"aTrabajar"}
+	],
+
+	"aTrabajar":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Nicholas recupera la situación"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: ¡Bueno chicos! Dejémonos de tonterías y pongámonos manos a la obra."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Muy bien jefe, tengo ganas de empezar"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: y yo de acabar"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"nuevoTema":"BradyCortaSituación"}
+	],
+
+	"BradyCortaSituación":
+	[
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: ¿Pero? Esperad, esperad..."],
+			"clases":"fundido_entrada",
+			"tiempo":2000
+		},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"¿Y qué pasa con la reunión?","visible":true,"nuevoTema":"TeLaPerdistePorNoLlegarATiempo"},
+				{"clave":"2","cadena":"¿Entre qué tareas puedo escoger?","visible":true,"nuevoTema":"YaEstanTodasCogidas"},
+				{"clave":"3","cadena":"¿Qué tengo que hacer?","visible":true,"nuevoTema":"SacarALaRataDelAlmacen"}
+			]
+		}
+	],
+
+	"TeLaPerdistePorNoLlegarATiempo":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Te la perdiste por no llegar a tiempo. "],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Si fueras más serio, más como Kevin , Habrías llegado a tu hora y habrías participado en la reunión. ",
+						"Pero ahora, es demasiado tarde."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Más suerte la próxima vez Brady."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Ni que pudiera importarme."],
+			"clases":"fundido_entrada",
+			"tiempo":2000
+		},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Dices en bajito, pensando que nadie te escucha."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Ese es el problema Brady, Ese mismo."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"BradyCortaSituación"}
+	],
+
+	"YaEstanTodasCogidas":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Ya están todas cogidas amiguito, no pienses que te vas a salir con la tuya sin más."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Je, Je, Je… verás lo bien que te lo pasas."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"BradyCortaSituación"}
+	],
+
+	"SacarALaRataDelAlmacen":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Por a ver llegado el último, tendrás la tarea de sacar a la horrible rata que lleva meses rondando por el almacén."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["¡Y que te quede claro!"],
+			"clases":"fundido_entrada",
+			"alinear":"center",
+			"tamaFuente":"2rem",
+			"tiempo":2000
+		},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["¡No saldrás de esta tienda hasta que no cumplas tu cometido!"],
+			"clases":"fundido_entrada",
+			"alinear":"center",
+			"tamaFuente":"1.80rem",
+			"tiempo":4000
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"}
+	]
+}

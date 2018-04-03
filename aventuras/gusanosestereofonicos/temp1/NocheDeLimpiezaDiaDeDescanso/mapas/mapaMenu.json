@@ -1,0 +1,47 @@
+{
+"infoJuego":{
+	"titulo":"Noche de limpieza",
+	"autor":"el-gusano-aventurero.es",
+	"version":"0.1",
+	"copyright":"Creative Common 2017 algunos derechos reservados",
+	"sinopsis":"Encarna a Brady, un dependiente de supermercado que está a punto de llegar tarde, otra vez, a su puesto de trabajo."
+},
+"tituloMapa":"mapaMenu",
+
+"menuCrt":{"primero":true,"es":"cuarto","nombre":"MapaMenu-MenuCrt-Titulo","mostrarEntradaUsuario":false,
+			"descripcion":"MapaMenu-MenuCrt-Descripcion","mostrarSalidasEn":"vertical",
+			"conexiones":
+			{
+				"Comenzar":{"descripcion":"Comenzar","cuarto":"casaDeBrady","escenarioInicial":"CasaBradySalonZonaInferiorEsc","secuencia":"AlTrabajoEnBicicleta"},
+				"Continuar":{"descripcion":"Continuar","cuarto":"cargarCrt","textoBloqueada":"no-partida-pendiente"}
+			}
+		},
+
+"cargarCrt":{"primero":false,"es":"cuarto","nombre":"","mostrarEntradaUsuario":false,
+			"descripcion":"","mostrarSalidasEn":"vertical"
+		},
+
+"bradyAct":{"es":"actor","protagonista":true,"esta":"elCerditoFrenteALaEntradaCrt","conocido":true,
+	"nombre":"Brady","descripcion":"bradyDescripcion","genero":"femenino","bolsillo":["movilBradyObj",
+																						"pilasBradyObj",
+																						"rocaObj",
+																						"cartelPromocionalObj",
+																						"listaDePrecioslObj",
+																						"elCerditoLlaveDeVitrinaGerente",
+																						"elCerditoTrozoDeMangoObj"]},
+
+	"pilasBradyObj":{"es":"objeto","esta":"bradyAct","nombre":"pilas","atrezo":false,"scoger":true,"visto":true,"visible":false,
+					"descripcion":"casa-brady-salon-inferior-pilas-descripcion","genero":"femenino","singular":false},
+	"movilBradyObj":{"es":"objeto","esta":"bradyAct","nombre":"movil","atrezo":false,"scoger":true,"visto":true,
+					"descripcion":"casa-brady-salon-inferior-movil-descripcion","genero":"masculino","singular":true},
+	"rocaObj":{"es":"objeto","esta":"bradyAct","nombre":"roca","atrezo":false,"scoger":true,"visto":true,"visible":false,
+					"descripcion":"cerdito-roca-descripcion","genero":"femenino","singular":true},
+	"cartelPromocionalObj":{"es":"objeto","esta":"bradyAct","nombre":"cartel","adjetivos":["grande"],"atrezo":false,"scoger":true,"visto":true,"visible":false,
+					"descripcion":"el-cerdito-cartel-promocional-descripcion","genero":"masculino","singular":true},
+	"listaDePrecioslObj":{"es":"objeto","esta":"bradyAct","nombre":"lista","preDe":"precios","atrezo":false,"scoger":true,"visto":true,"visible":false,
+					"descripcion":"el-cerdito-lista-de-precios-descripcion","genero":"femenino","singular":true},
+	"elCerditoLlaveDeVitrinaGerente":{"es":"objeto","esta":"bradyAct","nombre":"llave","atrezo":false,"scoger":true,"visto":true,"visible":false,
+					"descripcion":"el-cerdito-llave-descripcion","genero":"femenino","singular":true},
+	"elCerditoTrozoDeMangoObj":{"es":"objeto","esta":"bradyAct","nombre":"trozo","preDe":"madera","atrezo":false,"scoger":true,"visto":true,"visible":false,
+					"descripcion":"el-cerdito-trozo-mango-descripcion","genero":"masculino","singular":true}
+}

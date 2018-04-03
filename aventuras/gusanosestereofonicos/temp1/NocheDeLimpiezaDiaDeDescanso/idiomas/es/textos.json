@@ -1,0 +1,337 @@
+{
+	"MapaMenu-MenuCrt-Titulo":["Siesta en el sofá"],
+	"MapaMenu-MenuCrt-Descripcion":["Un ronquido a pierna suelta, un hombre que se retuerce",
+									" cual lombriz para lograr darse la vuelta sobre el sofá, un golpe seco ¡Cata Pum! Te ",
+									"despiertas sobre el frío suelo, tapándote la cara como un vampiro que intenta evitar los ",
+									"rayos del Sol colándose por la ventana. Te alejas de la luz a hurtadillas para recuperarte ",
+									"del golpe. Ha sido una siesta larga"],
+
+	"Introduccion-secuencia-otra-vez-tarde-a":["Aun desorientado, coges el móvil con tu mano derecha mientras te retiras los pelos ",
+											"de la cara con la izquierda. Observas la pantalla de tu smartphone sólo para llevarte ",
+											"una desagradable sorpresa. Hoy es noche de limpieza en el cerdito, la pequeña tienda de ",
+											"alimentación donde trabajas, y estás a punto de llegar tarde, otra vez."],
+
+	"Introduccion-secuencia-otra-vez-tarde-b":["¡Que cagada! Esa es la primera idea que te vuela por la cabeza, la segunda, no la quieres ",
+												"ni pensar, pero no queda otra, si quieres llegar a tiempo te va a tocar usar la bicicleta."],
+
+	"Mapa-casa-brady-salon-inferior-titulo":["Salón -Cerca de la entrada-"],
+
+	"Mapa-casa-brady-salon-inferior-descripcion":["La luz, de la tarde, ilumina el salón a través de las dos ventanas que rodean la puerta ",
+												"principal. De fondo, los anuncios provenientes del gran televisor , de tubo , decoran con ",
+												"música y eslóganes baratos la escena. A un lado de la puerta principal se ve un pequeño ",
+												"mueble de madera . En este lado del salón, también queda un gran sofá de tres plazas, y delante de ",
+												"él, una pequeña mesa de mármol ."],
+
+	"Mapa-casa-brady-salon-inferior-descripcion-canal-local":["La luz, de la tarde, ilumina el salón a través de las dos ventanas que rodean ",
+															"la puerta principal. De fondo, el canal local sigue emitiendo, sin cesar, noticias",
+															" sobre la re-apertura de El Cerdito y el estreno de su nuevo refresco . A un lado de la puerta de entrada se ve un pequeño ",
+															"mueble de madera . En este lado del salón, también queda un gran sofá de tres plazas, y delante de ",
+															"él, una pequeña mesa de mármol . "],
+
+	"Mapa-casa-brady-salon-inferior-descripcion-canal-musica":["La luz de la tarde ilumina el salón, a través de las dos ventanas que rodean la puerta ",
+																"principal. De fondo, Música barata proveniente de los horribles videoclips que emiten en ",
+																"el canal de música. A un lado de la puerta de entrada se ve un pequeño ",
+																"mueble de madera . En este lado del salón, también queda un gran sofá de tres plazas, y delante de ",
+																"él, una pequeña mesa de mármol ."],
+
+	"Mapa-casa-brady-salon-inferior-descripcion-canal-series":["La luz, de la tarde, ilumina el salón a través de las dos ventanas que rodean la puerta principal. ",
+																"De fondo, el sonido de disparos y explosiones que provienen del televisor . A un lado de la puerta de entrada se ve un pequeño ",
+																"mueble de madera . En este lado del salón, también queda un gran sofá de tres plazas, y delante de ",
+																"él, una pequeña mesa de mármol ."],
+
+	"Mapa-casa-brady-salon-inferior-descripcion-canal-peliculas":["La luz, de la tarde, ilumina el salón a través de las dos ventanas que rodean la puerta principal. De ",
+																	"fondo, los llantos, gritos y quejas del drama, Llora que llora, que están emitiendo en el televisor . A un lado de la puerta de entrada se ve un pequeño ",
+																	"mueble de madera . En este lado del salón, también queda un gran sofá de tres plazas, y delante de ",
+																	"él, una pequeña mesa de mármol ."],
+
+	"Mapa-casa-brady-salon-inferior-descripcion-sin-tele":["La luz de la tarde, ilumina el salón a través de las dos ventanas que rodean la puerta ",
+												"principal. A un lado de la entrada se ve un pequeño ",
+												"mueble de madera . En este lado del salón, también queda un gran sofá de tres plazas, y delante de ",
+												"él, una pequeña mesa de mármol ."],
+
+
+	"Mapa-casa-brady-salon-inferior-descripcion-corta":["Dos ventanas por las que entra el sol, un pequeño mueble en la entrada, un gran sofá ",
+														"de tres plazas, una pequeña mesa de mármol y un viejo televisor de tubo."],
+
+	"Mapa-casa-brady-salon-inferior-salida-norte":["Hacia el Norte vas a la parte superior del salón"],
+	"Mapa-casa-brady-salon-inferior-salida-sur":["Hacia el Sur , queda el jardín de tu casa"],
+	"Mapa-casa-brady-salon-inferior-salida-norte-bloqueada":["No tienes tiempo para pasearte por casa ¡Busca la bicicleta!"],
+
+
+	"Mapa-casa-brady-jardin-titulo":["Jardín"],
+	"Mapa-casa-brady-jardin-descripcion":["Estás frente a la entrada de tu casa , junto a la puerta . Desde aquí puedes ver dos parcelas de hierba ",
+										"en un estado impecable y reluciente. Bajando los escalones comienza un pequeño camino de piedra que va desde ",
+										"la entrada, hasta el exterior de tu hogar . A un lado de la casa queda el garaje"],
+
+	"Mapa-casa-brady-jardin-descripcion-corta":["Dos parcelas de hierba , un camino que da al exterior de tu casa y la entrada al garaje"],
+
+	"Mapa-casa-brady-jardin-salida-norte":["Al Norte queda la parte inferior del salón"],
+	"Mapa-casa-brady-jardin-salida-sur":["al Sur , cruzando el caminillo de piedra, sales al exterior de la casa"],
+	"Mapa-casa-brady-jardin-salida-entrar":["desde aquí, puedes entrar al garaje"],
+	"Mapa-casa-brady-jardin-salida-sur-bloqueada":["A pie no vas a llegar a tiempo a trabajar"],
+	"Mapa-casa-brady-jardin-salida-entrar-bloqueada":["El portón está cerrado."],
+
+	"Mapa-casa-brady-garaje-titulo":["Garaje"],
+	"Mapa-casa-brady-garaje-descripcion":["El polvo vuela libremente de un lado a otro del garaje, se nota que hace mucho que ni se limpia, ",
+										"ni se entra en él. Aquí es donde viviste los mejores capítulos de tu vida, cuando eras un roquero ",
+										"y te pasabas todo el día haciendo ruido con tu banda . Ahora todos los instrumentos están mudos, ",
+										" llenos de polvo y mugre"],
+
+	"Mapa-casa-brady-garaje-descripcion-corta":["Un garaje lleno de polvo y mugre, te recuerda a tu vieja vida de roquero"],
+
+	"Mapa-casa-brady-garaje-salir":["desde aquí puedes salir del garaje"],
+
+	"Mapa-casa-brady-salon-superior-titulo":["Parte superior del salón"],
+	"Mapa-casa-brady-salon-superior-descripcion":["En esta parte del salón ves una mesa enorme  rodeada por varias sillas . En el centro de la mesa se encuentra ",
+													"una calavera de cristal a modo de decoración. Aquí es donde deberías sentarte a comer, pero alejarte de la tele es difícil."],
+	"Mapa-casa-brady-salon-superior-descripcion-corta":["Una enorme mesa rodeada de sillas . Sobre la mesa ves una calavera de cristal"],
+	"Mapa-casa-brady-salon-superior-salida-oeste":["Hacia el Oeste ves un pequeño pasillo"],
+	"Mapa-casa-brady-salon-superior-salida-sur":["Hacia el Sur vas a la parte inferior del salón"],
+	"Mapa-casa-brady-salon-superior-salida-subir":["hacia el norte ves unas escaleras que te permiten subir al segundo piso"],
+	"Mapa-casa-brady-salon-superior-salida-entrar":["la puerta para entrar a la cocina "],
+	"Mapa-casa-brady-salon-superior-salida-oeste-bloqueada":["Para nada, tienes que encontrar tu bicicleta."],
+	"Mapa-casa-brady-salon-superior-salida-subir-bloqueada":["El segundo piso está hecho un asco después de tu última juerga, así que mejor lo dejas como está. Además, seguro que Busty ",
+																"lo acaba limpiando. Mejor ponte a buscar tu bicicleta."],
+
+
+	"Mapa-casa-brady-cocina-titulo":["Cocina"],
+	"Mapa-casa-brady-cocina-descripcion":["La cocina contiene todo lo esencial: Un viejo frigorífico , unos fogones de gas , una encimera , un microondas y un fregadero . Normalmente, comes ",
+											"comida decente cuando Busty se pone a cocinar, en cambio, a ti se te da fatal y te mantienes a base de pizzas"],
+	"Mapa-casa-brady-cocina-descripcion-corta":["Un viejo frigorífico, unos fogones de gas , una encimera , un microondas y un fregadero"],
+	"Mapa-casa-brady-cocina-salida-salir":["Desde aquí puedes salir de la cocina"],
+	"casa-brady-cocina-salida-salir-bloqueada":["Apaga el fogón primero"],
+
+
+	"casa-brady-cocina-frigorifico-descripcion":["Un viejo frigorífico  con congelador, que casi siempre contiene cervezas y pizzas congeladas"],
+	"casa-brady-cocina-encimera-descripcion":["Una encimera de mármol"],
+	"casa-brady-cocina-encendedor-descripcion":["Suelta una chispa y enciende un fogón"],
+	"casa-brady-cocina-fregadero-descripcion":["Un fregadero que no usas nunca"],
+	"casa-brady-cocina-fogones-descripcion":["Unos fogones de gas, como a la vieja usanza"],
+	"casa-brady-microondas-fregadero-descripcion":["Un microondas que usas para calentar tus amadas pizzas"],
+
+
+	"casa-brady-salon-superior-mesa-descripcion":["Una típica mesa de salón. normalmente se usan para comer, pero la tuya está de adorno"],
+	"casa-brady-salon-superior-sillas-descripcion":["Más sillas de las que necesitas para usar la mesa"],
+	"casa-brady-salon-superior-calavera-descripcion":["Un simple objeto decorativo. Es siniestro, pero te encanta"],
+
+
+
+	"casa-brady-salon-inferior-pilas-descripcion":["unas pilas de tamaño pequeño, estándar para mandos de todo tipo"],
+
+	"casa-brady-salon-inferior-movil-descripcion":["Un teléfono móvil última generación, que tiene hasta linterna"],
+
+	"casa-brady-salon-inferior-llaves-descripcion":["Las llaves de mi casa"],
+
+
+
+	"casa-brady-salon-inferior-ventana-descripcion":["Empieza a caer la tarde, pero  los rayos del Sol, de primavera, aun se cuelan por la ventana cegándote de pleno. ",
+										"Cuando tu vista se aclimata, comienzas a ver las dos pequeñas parcelas de hierba que quedan a los lados del caminillo, ",
+										"de piedra, que lleva al exterior de tu casa"],
+
+	"casa-brady-salon-inferior-mueble-entrada-descripcion":["Un pequeño mueble de madera te sirve de recepción cada vez que sales  y entras de casa."],
+
+	"casa-brady-salon-inferior-televisor-descripcion":["Un enorme y viejo televisor de tubo. No tiene ni el sonido ni la calidad de imagen de las televisiones de hoy en día, pero falla poco y tiene mando a distancia" ,
+													", para ti, todo un lujo"],
+
+	
+	"casa-brady-salon-inferior-sofa-descripcion":["Adoras este sofá. Te pasas las horas muertas en él rascándote la barriga"],
+
+	"casa-brady-salon-inferior-mesa-marmol-descripcion":["Donde sueles posar tus cervezas, apoyar tus piernas y depositar tu comida antes de engullirla como un animal"],
+
+	"casa-brady-salon-inferior-mando-tele-descripcion":["El control remoto de la tele, que a veces funciona y a veces no. Le queda poca pila"],
+
+	"casa-brady-salon-inferior-mando-garaje-descripcion":["El mando del garaje. Ni tú, ni tu colega Busty tenéis coche. Lo usáis, basicamente, para guardar los instrumentos ",
+														"de vuestra vieja banda de rock -Gusanos Estereofónicos- además de otros trastos, a los que les dais poco uso"],
+
+	"casa-brady-salon-inferior-ventilador-descripcion":["Un pequeño ventilador, a pilas, que usas en tus ratos de relax, cuando estás asado de calor"],
+
+	"casa-brady-salon-inferior-restos-pizza-descripcion":["Los restos de una pizza de salami congelada. Uno de tus platos favoritos, muestra de lo sana que es tu dieta diaria"],
+
+	"casa-brady-salon-inferior-lata-cerveza-descripcion":["Una de tus amadas, ahora seca a causa de tu sed insaciable. Algunos dicen que es una adicción, pero para ti, es un ",
+														"juramento sagrado adoptado junto con Busty, que dice ¡Para la sed del día a día, tan solo cerveza fría! Una promesa divina de la que ya hablaremos en otra ocasión"],
+
+	"casa-brady-salon-inferior-petardo-descripcion":["Es uno de los petardos de Busty. A el le encanta la pólvora y las explosiones, por eso saqué todos los mecheros de casa. Este es especialmente grande. "],
+
+	"casa-brady-salon-inferior-cajon-descripcion":["Un cajón que no suele abrirse nunca"],
+
+	"casa-brady-salon-inferior-cinta-aislante-descripcion":["Un rollo de cinta aislante"],
+
+	"casa-brady-jardin-parcelas-de-hierba-descripcion":["Fruto del esfuerzo y el trabajo de Busty. En realidad, todo el que te conoce sabe que eres bastante vago"],
+
+	"casa-brady-jardin-caminillo-descripcion":["Un pequeño camino de piedra que va desde la puerta principal, hasta el exterior de tu casa"],
+
+	"casa-brady-jardin-puerta-entrada-descripcion":["Una pesada puerta blindada que no sirve de mucho, puesto que en tu pueblo no pasa nada, de nada"],
+
+	"casa-brady-jardin-casa-descripcion":["Esta era la casa de tus padres antes de que se separaran. Él se largo con una antigua camarera del Mono Loco, El bar más concurrido del pueblo, y también el único. Tu madre se marchó con ",
+							"un rico empresario que conoció por Internet, dejándote a ti a cargo de la casa. Viéndote desbordado por los gastos, propusiste a Busty, tu mejor amigo, la idea de compartir la casa y los gastos ",
+							"como dos solteros de oro"],
+
+	"casa-brady-jardin-panel-descripcion":["A un lado del portón del garaje y anclado a la pared, puedes ver un panel con un botón. El panel parece tener la tapa suelta"],
+
+	"casa-brady-jardin-cables-descripcion":["Los cables no están en muy buen estado. No sé si deberías meter mano"],
+
+	"casa-brady-garaje-bateria-descripcion":["Este conjunto de instrumentos, de percusión, fue aporreado en infinidad de ocasiones por tu gran amigo Busty. A él le encantaba ",
+											"ser baterista, era su mayor ilusión hecha realidad. Aun, a día de hoy, pierde las horas muertas haciendo ritmos con cualquier cosa que pueda golpear"],
+
+	"casa-brady-garaje-bajo-descripcion":["El bajo eléctrico quedaba a cargo de Bob, un autentico conspiranoico. Siempre obsesionado con el gobierno y sus planes de control ",
+										"mental sobre la población. De hecho, sigue obsesiondo con la idea de que la élite y los extraterrestes, quieren transformarnos en tiernas ovejas ",
+										"a las que poder controlar . Después de que el grupo se separara tendió a ",
+										"encerrarse en casa más de lo normal hasta que perdió contacto con todos sus amigos. A día de hoy, se le ve muy esquivo caminando entre el resto de ",
+										"habitantes de Cambrill, desconfiado, asustado..."],
+
+	"casa-brady-garaje-guitarra-descripcion":["Tocar potentes riff de guitarra, marcarte unos solos de alucine y pegar gritos al micrófono eran tus aportaciones básicas a la banda, el resto lo iras descubriendo poco a poco"],
+
+	"casa-brady-garaje-teclados-descripcion":["Los teclados quedaban a cargo de Bits. Un genio, matemático, informático, programador, loco de los videojuegos y un autentico aficionado ",
+											"al rol y a series tipo Doctor Who y Start Trek. Cuando se disolvió la banda, se fue a la gran ",
+											"ciudad para trabajar en una importante empresa informática"],
+
+	"casa-brady-garaje-bicicleta-descripcion":["Tu vieja bicicleta de montaña hard tail (Rígida con suspensión delantera) Te recuerda a una antigua vida más sana que esta. Una vida en ",
+												"la que ibas de un lado a otro con tu bici a toda marcha. Ahora la pobre está abandonada en un rincón, llena de polvo"],
+
+
+	"casa-brady-garaje-polvo-descripcion":["Vuelan sin control por todo el garaje, y a cada paso que das, una nueva nube de polvo surge bajo tus pies."],
+	"casa-brady-garaje-mugre-descripcion":["La mugre está pegada por todos los trastos del garaje. Pensar en limpiar todo esto te da vértigo."],
+	"casa-brady-garaje-recuerdos-de-roquero-descripcion":["Que vidorra aquella, todo el día rasgando la guitarra aunque no tuvieras ni idea de tocar. La gran cantidad de bolos en",
+														" El Mono Loco, que acabaron en una interminable lluvia de tomates, vasos vacíos y otros objetos cortantes. Pero os daba igual, ",
+														"tocar era vuestra ilusión, ibais a por todas."],
+	"casa-brady-garaje-recuerdos-de-banda-descripcion":["Lo cierto es, que por mucho que se intente decorar, tu banda, nunca llegó a tocar fuera del pueblo. Lo pasabais bien, ",
+														"era alucinante tener algún que otro fan, pero en realidad, nunca fuisteis demasiado lejos."],
+
+
+	"casa-brady-encender-television":["Enciendes la televisión"],
+	"casa-brady-encender-television-si-encendida":["La televisión está encendida"],
+	"casa-brady-apagar-television":["Apagas la Televisión"],
+	"casa-brady-usar-television":["En el televisor, sólo funciona el botón de encender / apagar"],
+	"casa-brady-apagar-television-si-apagada":["La televisión está apagada"],
+
+	"casa-brady-usar-mando-television":[
+									{"tipo":"seleccion","cadena":["encender/apagar"],"evento":"encender_apagar_tele_desde_mando"},
+									{"tipo":"seleccion","cadena":["cambiar de canal"],"evento":"cambiar_de_canal"},
+									{"tipo":"orden_interna","cadena":["esperar_seleccion"]}
+								],
+
+	"casa-brady-cambiar-canal-tele-a-canal-tienda":["Ahora estás viendo el canal de anuncios y tele-tienda. Lo pones cuando quieres dormir."],
+
+	"casa-brady-cambiar-canal-tele-a-canal-local":["Ahora estás viendo el canal local. Aquí están emitiendo, sin cesar, noticias sobre la re-apertura de",
+													" El cerdito, y el estreno del nuevo refresco."],
+
+	"casa-brady-cambiar-canal-tele-a-canal-musica":["Ahora estás viendo el canal de música y videoclips. Odias este canal por la cantidad de música comercial y barata que ponen a todas horas"],
+
+	"casa-brady-cambiar-canal-tele-a-canal-series":["Ahora estás viendo tu canal de series de acción y ciencia ficción favorito."],
+	
+	"casa-brady-cambiar-canal-tele-a-canal-peliculas":["Ahora estás viendo el canal de películas clásicas y de estrenos. Pocas veces ponen nada bueno."],
+
+	"casa-brady-encender-usar-ventilador":["Las aspas del ventilador comienzan a girar a gran velocidad. Lo apagas para no gastar las pilas."],
+	"casa-brady-apagar-ventilador":["El ventilador está apagado"],
+	"casa-brady-usar-mesa-marmol":["De buena gana apoyarías tu trasero en el sofá y dejarías caer tus piernas sobre la mesa. Pero parece, que lo vas a tener que posponer para otro momento."],
+	"casa-brady-usar-sofa":["Te encantaría quedarte y sentarte en el sofá con una cerveza y un buen programa, pero esta vez, no va a poder ser."],
+
+	"casa-brady-abrir-ventanas":["No quiero abrir las ventanas"],
+	"casa-brady-cerrar-ventanas":["Las ventanas ya están cerradas"],
+
+	"casa-brady-abrir-mueble":["El mueble no se puede abrir"],
+
+	"casa-brady-usar-lata":["A esta pobre ya no le queda ni una gota"],
+	"casa-brady-coger-lata":["No quieres una lata vacía"],
+	"casa-brady-usar-pizza":["De la pizza sólo quedan los restos"],
+	"casa-brady-coger-mando":["Mejor lo dejas en la mesa para no romperlo, ni perderlo"],
+
+	"casa-brady-usar-movil":["No tienes tiempo tontear con tu móvil"],
+	"casa-brady-dejar-movil":["No piensas dejar el móvil ni de coña"],
+	"casa-brady-usar-llaves":["Sólo abren las puertas de tu casa"],
+	"casa-brady-dejar-llaves":["No quieres dejar las llaves"],
+	"casa-brady-dejar-pilas":["No quiero dejar las pilas"],
+	"casa-brady-ventilador-abrir":["Ya le has sacado las pilas"],
+	"casa-brady-ventilador-encender-sin-pilas":["No tiene pilas"],
+	"casa-brady-ventilador-abrir-sin-tener":["No tienes el ventilador"],
+	"casa-brady-ventilador-abrir":["Dentro del ventilador encuentras unas pilas"],
+	"casa-brady-el-mando-no-tiene-pilas":["El mando no tiene pilas"],
+	"casa-brady-el-mando-no-pasa-nada":["No parece que pase nada"],
+	"casa-brady-el-mando-abre-garaje":["Pulsas el botón del mando, y el portón del garaje comienza a abrirse lentamente"],
+	"casa-brady-el-mando-malgastar-pilas":["No quiero malgastar las pilas"],
+	"casa-brady-el-mando-poner-pilas-en-mando":["pones las pilas en el mando"],
+	"casa-brady-el-mando-no-usar-mas":["No te apetece usar el mando de nuevo"],
+	"casa-brady-el-mando-no-lo-tienes":["No tienes el mando del garaje"],
+	"casa-brady-no-salir-sin-llaves":["No quieres salir sin tus llaves."],
+	"casa-brady-coger-llaves":["Coges las llaves de casa"],
+	"casa-brady-ya-tienes-llaves":["Ya tienes las llaves"],
+
+	"casa-brady-salon-inferior-cajon-no-se-abre-con":[" no se abre con"],
+	"casa-brady-salon-inferior-no-tienes-llaves-de-cajon":["No tienes las llaves"],
+	"casa-brady-salon-inferior-que-quieres-hacer-con-cajon":["Qué quieres hacer con el cajón"],
+	"casa-brady-salon-inferior-cerrojo-abierto":["El cerrojo ya está abierto"],
+	"casa-brady-salon-inferior-una-de-las-llaves":["Pruebas con todas las llaves, hasta que das con una que abre el cerrojo ¡Click, clack!"],
+
+	"casa-brady-jardin-usar-cables-sin-mas":["No deberías manipular los cables sin más, podría acabar mal"],
+	"casa-brady-jardin-usar-cinta-sin-cinta":["No tienes la cinta aislante"],
+	"casa-brady-jardin-el-porton-abierto":["El portón ya está abierto"],
+	"casa-brady-jardin-los-cables-no-se-unen-con":["los cables no se unen con"],
+	"casa-brady-jardin-pulsa-boton-pero-nada":["Pulsas el botón, pero no pasa nada"],
+	"casa-brady-jardin-cierra-el-panel-antes-de-usar":["Deberías cerrar el panel, antes de pulsar el botón"],
+	"casa-brady-jardin-cierra-el-panel-esta-cerrado":["El panel está cerrado"],
+	"casa-brady-jardin-unes-los-cables":["Unes los cables con la cinta aislante"],
+	"casa-brady-jardin-abres-porton-con-panel":["Pulsas el botón del panel, y el portón del garaje se abre lentamente"],
+	"abres-mando-no-tiene-pilas":["El mando no tiene pilas. Lo cierras"],
+	"casa-brady-el-mando-esta-cerrado":["El mando está cerrado"],
+	"casa-brady-el-mando-tiene-pilas":["El mando tiene pilas"],
+	"casa-brady-abrir-control-tele":["Jamás le quitarías las pilas al control. Es muy valioso para ti"],
+	"casa-brady-el-control-esta-cerrado":["Ya está cerrado"],
+	"casa-brady-ventilador-abrir-sin-pilas":["El ventilador no tiene pilas"],
+	"casa-brady-los-cables-estan-perfectos":["Los cables están en perfecto estado"],
+
+	"casa-brady-usa-bateria":["¡Pum! ¡Pata pum! ¡Pum, pum! ¡Chas! Y una enorme nube de polvo comienza a esparcirse por todo el lugar"],
+	"casa-brady-usa-bajo":["¡Badaba! ¡Dum, dum, dum! Pero sin amplificador no sirve de nada"],
+	"casa-brady-usa-guitarra":["¡Ran! ¡Ran! ¡Tiro riro riii! Más polvo se esparce por la zona"],
+	"casa-brady-usa-teclado":["Apretas las teclas pero no suena nada. Esta apagado"],
+	"casa-brady-encender-teclado":["El teclado no tiene corriente"],
+	"casa-brady-apagar-teclado":["El teclado está apagado"],
+	"casa-brady-coger-bajo":["El bajo se queda donde está"],
+	"casa-brady-coger-guitarra":["ni hablar"],
+	"casa-brady-coger-teclado":["no necesitas el teclado para nada"],
+	"casa-brady-rebuscas-entre-los-cojines":["Buscas entre los almohadones del sofá hasta que encuentras un enorme petardo"],
+	"casa-brady-no-romper-calavera":["No quieres romperla"],
+	"casa-brady-usar-calavera":["La frotas con tus manos, pero tu no sabes adivinar el futuro"],
+	"casa-brady-abrir-frigorifico":["Ya sabes lo que contiene"],
+	"casa-brady-abrir-microondas":["No tiene nada. Lo cierras"],
+	"casa-brady-fogon-esta-prendido":["Un fogón ya tiene llama"],
+	"casa-brady-fogon-suelta-gas":["Un fogón ya está soltando gas"],
+	"casa-brady-giras-ruleta":["Giras una de las ruletas y uno de los fogones comienza a soltar gas"],
+	"casa-brady-apagas-fogon":["Apagas el fogón"],
+	"casa-brady-el-fogon-esta-apagado":["Todos los fogones están apagados"],
+	"casa-brady-salon-no-quiero-manipular-el-fogon":["No deberías manipular el fogón sin más"],
+	"casa-brady-prendes-el-fogon":["Acercas el encendedor al fogón , sueltas una chispa y una llama prende velozmente"],
+	"casa-brady-no-tienes-encendedor":["No tienes el encendedor"],
+	"casa-brady-no-quieres-quemar":["No quieres quemar"],
+	"casa-brady-prender-petardo":["Prendes el petardo con la llama y la mecha comienza a consumirse. No te queda mucho tiempo"],
+	"casa-brady-fogon-no-tiene-llama":["Ningún fogón tiene llama"],
+	"casa-brady-no-tienes-el-petardo":["No tienes el petardo"],
+	"casa-brady-dejas-el-petardo-en-el-jardín":["Dejas el petardo cerca del portón y te alejas"],
+	"casa-brady-dejas-el-petardo-en":["Dejas el petardo en"],
+	"casa-brady-lanzas-petardo-contra-porton":["Lanzas el petardo contra el portón del garaje justo ante de que estalle"],
+	"casa-brady-antes-de-que-estalle":["antes de que estalle"],
+	"casa-brady-el-petardo-rebienta-porton":["El petardo revienta el cierre del portón del garaje. Empujas el portón hasta abrirlo completamente"],
+	"casa-brady-explota-en":["El petardo explota en"],
+
+
+	"casa-brady-usar-bicicleta":["Sacas la bicicleta mugrienta del garaje, y de un brinco, te subes en ella. Justo cuando tu trasero ",
+								"impacta sobre el sillín, una enorme nube de polvo se levanta a tu alrededor. Comienzas a pedalear, ",
+								"y como si aun fueras aquel niño de antaño, sales disparado dejando atrás la nube de polvo y mugre. ",
+								"A los pocos minutos estás machacado, pero no puedes parar, tienes que llegar al Cerdito lo más rápido posible"],
+
+	"mensaje-no-tengo":["No tienes "],
+	"mensaje-no-necesita":["no necesita"],
+	"no-partida-pendiente":["No tienes ninguna partida pendiente"],
+	"no-cargar-guardar":["No se permite ni cargar, ni guardar en esta partida"],
+	
+	"opcion-guardar-cargar":[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"tipo":"titulo_escenario","cadena":"Sistema de guardado"},
+		{"tipo":"descripcion_escenario","cadena":["Este juego usa un sistema de guardado, automático, que usa la cache del navegador para mantener ",
+				"los datos de la partida en curso. Este sistema no usa Cookies para guardar la partida. Este sistema no usa ni guarda dato personales ",
+				"del usuario. Este sistema solo guarda los datos de la partida en curso para poder recuperarla en próximas visitas."]},
+		{"tipo":"descripcion_escenario","cadena":"¿Deseas usar el sistema de guardado automático?"},
+		{"tipo":"seleccion","cadena":["Aceptar"],"evento":"evento_aceptar_guardar_cargar"},
+		{"tipo":"seleccion","cadena":["Cancelar"],"evento":"evento_cancelar_guardar_cargar"},
+		{"tipo":"orden_interna","cadena":["esperar_seleccion"]}
+	]
+}	

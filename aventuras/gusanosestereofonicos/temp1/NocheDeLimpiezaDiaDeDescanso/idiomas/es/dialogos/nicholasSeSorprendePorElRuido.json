@@ -1,0 +1,96 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+							
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["La voz de Nicholas, sorprendido por el golpe, suena desde el interior de la tienda."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["¡Qué demonios ha sido ese ruido!"],
+			"clases":"fundido_entrada",
+			"tamaFuente":"2rem",
+			"alinear":"center"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Nicholas sale al exterior."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Pero… qué a pasado aquí."],
+			"clases":"fundido_entrada",
+			"tiempo":4000
+		},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Unos críos...","cadenaLarga":"Unos críos han lanzado una piedra y después han salido corriendo.","visible":true,"nuevoTema":"unosCriosLocos"},
+				{"clave":"2","cadena":"Un cliente...","cadenaLarga":"Un cliente cabreado ha lanzado una piedra y después ha salido corriendo.","visible":true,"nuevoTema":"unClienteLoco"},
+				{"clave":"3","cadena":"¿Yo no he sido? Lo juro.","cadenaLarga":"Una abuela cabreada, porque la tienda está cerrada, se ha liado a bastonazos como una loca.","visible":true,"nuevoTema":"unaAbuelaLoca"}
+			]
+		}
+		
+	],
+
+	"unosCriosLocos":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Malditos críos mal criados…"],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"llamarAlSeguro"}
+	],
+	"unClienteLoco":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Esos puñeteros clientes…"],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"llamarAlSeguro"}
+	],
+	"unaAbuelaLoca":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Esa maldita abuela…"],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"llamarAlSeguro"}
+	],
+
+	"llamarAlSeguro":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Si llamo a emergencias y lo pago de mi bolsillo, estará reparado para el lunes. Mejor volver al trabajo ¡Maldita sea!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Nicholas regresa al interior de la tienda, cabreado."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Parece que has tenido suerte."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"}
+	]
+}

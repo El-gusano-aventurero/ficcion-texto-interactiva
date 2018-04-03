@@ -1,0 +1,136 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+							
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Kevin te frena en seco."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: ¿Qué estás haciendo?"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Aunque este roto, tengo que hacer un informe y declarar su perdida de manera oficial"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Y si...","visible":true,"nuevoTema":"ysi"},
+				{"clave":"2","cadena":"¡Andaaaa! ¡Damelooooo!","visible":true,"nuevoTema":"suplicar"},
+				{"clave":"3","cadena":"Y dime...","visible":true,"nuevoTema":"convercer"},
+				{"clave":"4","cadena":"Pero...","visible":true,"nuevoTema":"pero"},
+				{"clave":"5","cadena":"Vale, vale... lo dejo","visible":true,"nuevoTema":"loDejo"}
+
+			]
+		}
+		
+	],
+
+	"pero":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Tú y yo somos amigos ¿No?"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["KevinAct:¡No!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Bueno... que caracter."],
+			"clases":"fundido_entrada"
+		}
+	],
+
+	"ysi":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Te doy algo a cambio."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["KevinAct: No tienes nada que me interese."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Vale, vale."],
+			"clases":"fundido_entrada"
+		}
+	],
+
+	"convercer":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["¿Qué puedo hacer para convencerte?"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Bueno... si pudieras... pero mejor no."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Enserio, dispara, no te cortes."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Me da vergüenza pero... verás... si pudieras conseguirme una cita con brenda."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Seria tan feliz que haría la vista gorda por una vez."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"ejecutar_evento","evento":"tengo_que_conseguir_cita"}
+	],
+	"suplicar":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Eso no te va a funcionar conmigo"],
+			"clases":"fundido_entrada"
+		}
+	],
+	"loDejo":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Más te vale."],
+			"clases":"fundido_entrada"
+		}
+	]
+
+}

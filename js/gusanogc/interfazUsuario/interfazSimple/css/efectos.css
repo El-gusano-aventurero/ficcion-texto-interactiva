@@ -1,0 +1,36 @@
+.desvanecer
+{
+	transition-property: opacity;
+	transition-duration: 300ms;
+	opacity: 0;
+}
+
+.separar_caracteres
+{
+	transition-property: letter-spacing;
+	transition-duration: 600ms;
+	letter-spacing: 0.00rem
+}
+
+.separar_caracteres:hover
+{
+	transition-property: letter-spacing;
+	transition-duration: 600ms;
+	letter-spacing: 0.05rem
+}
+
+.fundido_entrada
+{
+  animation-duration: 300ms;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: : 1;
+  }
+}

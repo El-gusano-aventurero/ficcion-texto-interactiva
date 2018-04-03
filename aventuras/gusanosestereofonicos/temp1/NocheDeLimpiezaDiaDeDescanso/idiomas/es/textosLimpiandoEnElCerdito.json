@@ -1,0 +1,344 @@
+{
+	"el-cerdito-frente-a-la-entrada-titulo":["Entrada Principal"],
+	"el-cerdito-frente-a-la-entrada-descripcion":["Unas puertas automáticas de gran tamaño, dan paso al interior de la tienda. A un lado de la puerta, una enorme vitrina ",
+													"de cristal, anclada a la pared, sirve para decorar la entrada con diferentes carteles promocionales . Frente a la puerta, descansa un caballete de pino, ",
+													"que se usa para colocar las ofertas más interesantes de la tienda"],
+	"el-cerdito-frente-a-la-entrada-descripcion-corta":["Unas puertas automáticas ,  una enorme vitrina de cristal y un caballete de pino"],
+
+	"el-cerdito-frente-a-la-entrada-salida-norte":["Hacia el Norte te diriges al interior de la tienda"],
+	"el-cerdito-frente-a-la-entrada-salida-este":["al el Este , iras a la carretera que rodea el bosque"],
+	"el-cerdito-frente-a-la-entrada-salida-oeste":["al Oeste , te diriges a la estatua conmemorativa de los fundadores de El Cerdito"],
+	
+	"el-cerdito-linea-de-cajas-titulo":["Linea de cajas"],
+	"el-cerdito-linea-de-cajas-descripcion":["Tres típicas cajas registradoras , de supermercado , decoran esta parte de la tienda . Hacia el interior de la misma, puedes ver ",
+											"cuatro pasillos conformados por cinco muebles llenos de baldas , donde se exponen los artículos a la venta"],
+	"el-cerdito-linea-de-cajas-descripcion-corta":["Tres cajas registradoras y hacia el interior puedes ver, los muebles y baldas que soportan los articulos en venta"],
+
+	"el-cerdito-linea-de-cajas-salida-norte":["El Norte da paso al resto de la tienda"],
+	"el-cerdito-linea-de-cajas-salida-oeste":["Hacia el Oeste , se encuentra la oficina del Gerente"],
+	"el-cerdito-linea-de-cajas-salida-este":["al Este ,  una pequeña panadería "],
+	"el-cerdito-linea-de-cajas-salida-sur":["al Sur , la puerta automática te da acceso al exterior."],
+
+	"el-cerdito-mapa-tienda-titulo":["Mapa de la tienda"],
+	"el-cerdito-mapa-tienda-descripcion":["Desde aquí puedes acceder a los diferentes pasillos que conforman la sala de la tienda ¿Hacia qué pasillo te diriges?"],
+
+	"el-cerdito-pasillo-a-titulo":["Refrescos, vinos y licores"],
+	"el-cerdito-pasillo-a-descripcion":["Las baldas vacías de los muebles indican la situación actual de la tienda. Debido a la falta de camioneros que viajen a los ",
+										"almacenes centrales, casi la gran mayoría de los productos están agotados. Aquí sólo quedan algunos refrescos de cola y unas pocas cervezas ."],
+	"el-cerdito-pasillo-a-descripcion-corta":["muchas baldas vacías, algunos refrescos de cola y unas pocas cervezas ."],
+
+
+	"el-cerdito-pasillo-b-titulo":["Lácteos y zumos"],
+	"el-cerdito-pasillo-b-descripcion":["Muchas baldas vacías y poco género . Se nota la quiebra y el deterioro que El Cerdito, ha ido sufriendo con el paso del tiempo. En este pasillo ",
+											"puedes ver: unos pocos brik de leche , algún que otro batido y también, algunos zumos de Tetra-Brik . Mucho de estos productos ya están pasados de fecha."],
+	"el-cerdito-pasillo-b-descripcion-corta":["muchas baldas vacías, algún brik de leche , algún que otro batido y algunos zumos de Tetra-Brik ."],
+
+	"el-cerdito-pasillo-c-titulo":["Higiene personal, celulosa y limpieza"],
+	"el-cerdito-pasillo-c-descripcion":["Esta zona del la tienda tiene poco que ofrecer. Faltan hasta los artículos más básicos del hogar; papel higiénico , detergentes , lejías … la verdad, ",
+											"es que la pobreza actual de El Cerdito, se deja ver en cada pasillo ."],
+	"el-cerdito-pasillo-c-descripcion-corta":["Aquí falta de todo; papel higiénico , detergentes , lejías …"],
+
+	"el-cerdito-pasillo-d-titulo":["Conservas, legumbres, aceites…"],
+	"el-cerdito-pasillo-d-descripcion":["Las conservas y la comida enlatada , fue lo primero que se agotó, junto con las legumbres y el aceite . La escena parece sacada de una película apocalíptica ",
+											". La verdad, es que Cerdito tiembla por la falta de algún pedido que rellene sus estantes . "],
+	"el-cerdito-pasillo-d-descripcion-corta":["Las conservas y la comida enlatada , fue lo primero que se agotó, junto con las legumbres y el aceite . "],
+
+
+
+	"el-cerdito-pasillo-salida-norte":["Hacia el Norte queda la zona de productos congelados y refrigerados"],
+	"el-cerdito-pasillo-salida-sur":["Al Sur , queda el acceso al resto de pasillos de la tienda"],
+
+	"frios-y-congelados-titulo":["Muebles de frío y congelados"],
+	"frios-y-congelados-descripcion":["Aquí se ven varias vitrinas refrigeradas que contienen algunos restos de fiambre , yogures , pizzas … además, también se pueden ",
+										"ver dos islas de congelado paradas y vacías. La situación del cerdito está peor que nunca."],
+	"frios-y-congelados-descripcion-corta":["Varios muebles refrigerados con restos de fiambre , yogures , pizzas ... y dos islas de congelado vacías ."],
+	"frios-y-congelados-salida-oeste":["Hacia el Oeste queda la salida de emergencia"],
+	"frios-y-congelados-salida-sur":["al Sur , quedan el resto de pasillos de la tienda"],
+	"frios-y-congelados-salida-bajar":["desde aquí, también puedes bajar al almacén"],
+
+	"el-cerdito-almacen-titulo":["Almacén"],
+	"el-cerdito-almacen-descripcion":["El frío, oscuro y húmedo almacén, ahora vacío a causa de la horrible crisis que la empresa está pasando. Aquí sólo quedan un montón de estanterías vacías ",
+										"o llenas de trastos inútiles."],
+	"el-cerdito-almacen-descripcion-corta":["Aquí sólo quedan estanterías vacías o con trastos inútiles."],
+	"el-cerdito-almacen-salida-subir":["Desde aquí puedes subir a la sala de ventas de la tienda"],
+	"el-cerdito-almacen-salida-entrar":["también, puedes entrar al retrete de empleados"],
+
+	"el-cerdito-retrete-titulo":["Retrete para empleados"],
+	"el-cerdito-retrete-descripcion":["Un retrete y un lavabo . Además, aquí huele fatal a causa del atasco que tienen las tuberías."],
+	"el-cerdito-retrete-descripcion-corta":["Un retrete y un lavabo . Además, aquí huele fatal a causa del atasco que tienen las tuberías."],
+	"el-cerdito-retrete-salida-salir":["Desde aquí puedes salir del retrete de empleados."],
+
+
+
+	"cerdito-roca-descripcion":["Una roca de tamaño mediano. Parece peligrosa en malas manos"],
+	"el-cerdito-vitrina-descripcion":["Una enorme vitrina de cristal anclada a la pared. Normalmente se usa para colocar un cartel promocional, pero ahora, está vacía."],
+	"el-cerdito-vitrina-con-cartel-descripcion":["Una enorme vitrina de cristal, que contiene el cartel, promocional, de la nueva bebida."],
+	"el-cerdito-caballete-descripcion":["Un caballete de pino, que sirve para exponer las diferentes ofertas de la tienda, mediante un cartel de tamaño medio."],
+	"el-cerdito-caballete-descripcion-con-cartel":["El caballete, luce el cartel con la lista de precios del nuevo refresco."],
+	"el-cerdito-monton-de-rocar-descripción":["Un montón de rocas sobre el suelo, parecen dispuestas a modo de munición. Seguro que esos malditos niños pensaban apedrear la vitrina de nuevo."],
+	"el-cerdito-estatua-conmemoratva-descripcion":["El Cerdito hizo tanto por Cambrill, que se levantó una estatua en honor a sus fundadores ."],
+	"el-cerdito-fundadores-descripcion":["Los fundadores de El Cerdito fueron George y Anne. Podemos dejar ya el examen ."],
+	"el-cerdito-cartel-promocional-descripcion":["Es un enorme cartel promocional. En la imagen se puede ver una gran lata, debe ser una de esas nuevas bebidas."],
+	"el-cerdito-lista-de-precios-descripcion":["Es un cartel de tamaño medio. En él están marcados todos los precios de la nueva bebida."],
+	"el-cerdito-palanca-descripcion":["Una palanca, de esas que usan los ladrones para forzar las puertas de los coches."],
+	"el-cerdito-desatascador-descripcion":["Desatasca las obstrucciones que surgen en desagües de fregaderos y lavabos."],
+	"el-cerdito-llave-descripcion":["La llave de la vitrina de la entrada."],
+	"el-cerdito-guantes-descripcion":["Parecen resistentes."],
+	"el-cerdito-estanterias-descripcion":["Las estanterías del almacén, que antes estaban llenas de productos varios, ahora sólo contienen polvo."],
+	"el-cerdito-carteles-descripcion":["Dos carteles, enrollados, descansan apoyados contra la puerta de la oficina."],
+	"el-cerdito-puertas-descripcion":["Las puertas de entrada a la tienda. Son automáticas, de apertura horizontal."],
+	"el-cerdito-tienda-descripcion":["La tienda donde trabajo desde hace años. Ahora se ve sucia y destartalada, a causa de la crisis que está pasando."],
+	"el-cerdito-pasillos-descripcion":["Los pasillos de la tienda se ven viejos y sucios."],
+	"el-cerdito-muebles-descripcion":["Los muebles de la tienda se ven vacíos por la falta de mercancía."],
+	"el-cerdito-baldas-descripcion":["Más que productos parece que exponen suciedad y mal aspecto."],
+	"el-cerdito-cajas-registradoras-descripcion":["Las cintas transportadoras de las cajas no van, los lectores de códigos funcionan a duras penas y el sistema informático, es de alguna era pasada. Aun ",
+													"así, seguimos funcionando con ellas. "],
+	"el-cerdito-refrescos-de-cola-descripcion":["Algunas latas de refresco de cola. Sólo quedan las latas abolladas."],
+	"el-cerdito-cervezas-descripcion":["¡Ya no queda casi cerveza!"],
+	"el-cerdito-productos-descripcion":["No quedan casi productos a la venta."],
+	"el-cerdito-mango-de-madera":["Un mango de madera que sirve para sujetar el cepillo de la escoba. Este, está roto. La la mitad superior del mango está colgando y a punto de caerse."],
+	"el-cerdito-pasillo-en-pasillo-b-descripcion":["El suelo se ve viejo y sucio, el falso techo, de escayola, tiene trozos que están a punto de caerse, o abombados a causa de la humedad."],
+	"el-cerdito-brick-de-leche-descripcion":["Algunos brick están caducados."],
+	"el-cerdito-batido-descripcion":["Solo nos quedan batidos de fresa. Nuncan causaron mucha expectación."],
+	"el-cerdito-zumos-descripcion":["Zumos de tomate y de pomelo, no quedan más sabores."],
+	"el-cerdito-papel-higienico-descripcion":["Solo queda una marca que es como papel de lija, nadie lo quiere."],
+	"el-cerdito-detergentes-descripcion":["Detergente pro activo, mega lavado, Está de oferta."],
+	"el-cerdito-lejias-descripcion":["Perfumadas y jabonosas, aun quedan algunas."],
+
+	"el-cerdito-conservas-descripcion":["Casi no queda latas de conservas. "],
+	"el-cerdito-enlatadas-descripcion":["La comida enlatada esta casi extinta."],
+	"el-cerdito-aceite-descripcion":["El aceite está agotado casi por completo."],
+	"el-cerdito-legumbres-descripcion":["Las legumbres están tiritando."],
+	"el-cerdito-vitrinas-refrigeradas-descripcion":["La mayoría de los productos aquí expuestos tienen mal aspecto. Las vitrinas no funcionan muy bien."],
+	"el-cerdito-fiambre-descripcion":["Algo de jamón, chorizo, mortadela… pero no tienen buen aspecto."],
+	"el-cerdito-yogures-descripcion":["Los yogures están pasados de fecha."],
+	"el-cerdito-pizas-mal-estado-descripcion":["Los envases están hinchados por la falta de frío."],
+	"el-cerdito-islas-congelado-descripcion":["Las islas de congelado están paradas por la falta de productos."],
+	"el-cerdito-mueble-refrigerado-descripcion":["Un mueble refrigerado con quesos expuestos."],
+	"el-cerdito-queso-mal-oliente-descripcion":["Un queso mal oliente  ¡Puag! Voy a vomitar."],
+
+	"el-cerdito-cajas-vacias-descripcion":["Una caja vacía, bastante resistente"],
+	"el-cerdito-lavabo-descripcion":["Solo suelta agua marrón."],
+	"el-cerdito-retrete-huele-descripcion":["El retrete huele fatal."],
+	"el-cerdito-ratonera-descripcion":["Donde vive una rata."],
+	"el-cerdito-refrescos-descripcion":["Un enorme palé, lleno de los nuevos refrescos que se inaguran el lunes."],
+	"el-cerdito-puerta-retrete-descripcion":["La puerta del retrete está atascada"],
+
+	"el-cerdito-expositor-descripcion":["Un expositor de cartón descansa en un borde del pasillo. En él, se exponen objetos variados que no se suelen vender normalmente."],
+	"el-cerdito-rollo-cuerda-descripcion":["Es un rollo de cuerda largo y de poco grosor."],
+	"el-cerdito-trozo-mango-descripcion":["Es un trozo de madera, que extraje del mango de una escoba."],
+	"el-cerdito-casi-trampa-descripcion":["El comienzo de una trampa para ratas."],
+
+	"evento-se-acabo-el-trabajo":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":["Después de terminar, decides regresar ",
+								"para continuar limpiando los pasillos restantes."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":["El tiempo se te hace eterno…"],
+			"clases":"fundido_entrada",
+			"tiempo":3000
+		},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":"Tus compañeros Brenda y Kevin, se largan al terminar sus tareas, dejándote a ti con el resto del trabajo.",
+			"clases":"fundido_entrada"
+		},
+
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":["El tiempo se sigue haciendo eterno…"],
+			"clases":"fundido_entrada",
+			"tiempo":3000
+		},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":"Pasado un buen rato, consigues acabar tus tareas. Cansado por todo el trajín te dispones a salir.",
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"}
+	],
+
+	"evento-encuentro-con-peet":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":["Cuando te dispones a coger tu bicicleta, para volver a casa, aparece en escena la grúa de Peet, que frena a tu lado."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":["Peet se baja de la furgoneta y se dirige hacia ti."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"peetAct",
+			"cadena":["Peet: ¿Qué tal Brady? Tus compañeros de trabajo me dijeron que aun andabas por aquí, y el caso es… que como estaba haciendo la ronda del Sábado, he decidido pasarme para saludarte y tener una conversación."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"bradyAct",
+			"cadena":["Brady: ¿Qué quieres Peet?"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":["Preguntas asustado"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"peetAct",
+			"cadena":["Peet: Pues veras Brady, Me han soplado que has estado flirteando otra vez con Lorna en el Mono Loco, y el caso es… que eso no esta bien, sabes."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"bradyAct",
+			"cadena":["Brady: No Peet, yo no flirteaba con Lorna… sólo me tomaba unas cervezas."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"peetAct",
+			"cadena":["Peet: Por si acaso Brady, lo mejor será, que te de una lección ahora, para que este tipo de cosas no vuelvan a ocurrir jamas."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"peetAct",
+			"cadena":["¿Qué te parece Brady?"],
+			"clases":"fundido_entrada",
+			"tiempo":2000,
+			"tamaFuente":"2.20rem",
+			"alinear":"center"
+		}
+
+	],
+
+	"de-camino-al-bosque":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":["Te levantas del suelo dolorido. Piensas…"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"bradyAct",
+			"cadena":["Brady: Con Peet dando vueltas por la zona y la bicicleta rota, ",
+						"no queda otra que adentrarme a pie, en el bosque, para intentar regresar a casa sin tener otro encontronazo."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{	
+			"tipo":"descripcion_escenario",
+			"cadena":["Soportando aun el dolor del puñetazo, te diriges hacia el sur, al bosque Colorado."],
+			"clases":"fundido_entrada"
+		}
+	],
+
+	"recoges-carteles-promocionales":["Recoges los carteles promocionales."],
+	"el-cerdito-cojo-roca":["Coges una roca del montón."],
+	"el-cerdito-ya-tengo-roca":["Ya tienes una roca ¡No quieras abusar!"],
+	"el-cerdito-no-quiero-tirar-vitrina":["No puedes tirar la vitrina, está muy bien sujeta."],
+	"el-cerdito-no-quiero-tirar-objeto-contra":["No quieres tirar "],
+	"el-cerdito-no-quiero-usar-objeto-con":["No quieres usar "],
+
+	"el-cerdito-no-deberia-tira-la-roca-a":["No sé si deberías tirar la roca…"],
+	"el-cerdito-no-deberia-tira-la-roca-b":["Mejor te lo piensas un poco más."],
+	"el-cerdito-no-deberia-tira-la-roca-c":["¿Estás seguro? ¿De verdad?"],
+	"el-cerdito-no-deberia-tira-la-roca-d":["Y si luego te arrepientes..."],
+	"el-cerdito-vale-ya-tiro-la-roca":["¡Mira! Haz lo que de de la gana."],
+
+	"el-cerdito-no-quiero-usar-caballete-sin-mas":["No quieres usar el caballete sin razón."],
+	
+	"el-cerdito-tiras-roca-a":["Tiras la roca con todas tus fuerzas y…"],
+	"el-cerdito-tiras-roca-b":["¡Crasssss!"],
+	"el-cerdito-tiras-roca-c":["La puerta de la vitrina se rompe en mil pedazos."],
+	"el-cerdito-vitrina-ya-esta-rota":["La vitrina ya está rota."],
+	"el-cerdito-vitrina-ya-abierta":["La vitrina ya está abierta."],
+	"el-cerdito-vitrina-cerrada-con-llave":["La vitrina está cerrada con llave. Tendré que buscarla"],
+	"el-cerdito-vitrina-sellada-con-pegamento":["Esos malditos críos han vuelto a sellar la puerta con pegamento"],
+	"el-cerdito-no-quiero-usar-vitrina-sin-mas":["No quiero manipular la vitrina sin un plan establecido."],
+	"el-cerrojo-esta-quitado":["El cerrojo está abierto"],
+	"el-cerdito-quitas-el-cerrojo-vitrina":["manipulas el cerrojo de la vitrina con la llave"],
+	"el-cerdito-puedo-hacer-palanca-pero-cerrojo-echado":["Puedes hacer palanca, pero el cerrojo sigue cerrado"],
+	"el-cerdito-haces-palanca-sobre-la-vitrina":["Metes la palanca entre la puerta y el marco de la vitrina, y haces fuerza hasta que consigues abrirla."],
+	"el-cerdito-sin-proteccion-no-pongo-cartel":["Sin protección no, podrías cortarte con los bordes de los cristales."],
+	"el-cerdito-colocas-cartel-con-guantes":["Con los guantes puestos, colocas el cartel con mucho cuidado para no cortarte con los cristales."],
+	"el-cerdito-colocas-cartel-cuidado":["Colocas el cartel con mucho cuidado."],
+	"el-cerdito-vitrina-cerrada-al-colocar-cartel":["La vitrina está cerrada."],
+	"el-cerdito-por-que-ponerse-guante":["¿Para qué necesitas los guantes ahora mismo?"],
+	"el-cerdito-mejor-ponerse-guante":["Mejor ponerse los guantes por precaución."],
+	"el-cerdito-aqui-no-ponerse-guante":["Aquí no necesitas los guantes."],
+	"el-cerdito-no-quiero-hablar-con-nicholas":["No sabes que decirle ahora mismo."],
+	"el-cerdito-colocas-la-lista-de-precios-en-caballete":["Estiras el cartel sobre el caballete, con cuidado, y lo sujetas con fuerza."],
+	"el-cerdito-no-me-largo":["No pensaras marcharte, con lo que te ha costado llegar."],
+	"no-marcharse-todavia":["No quieres marcharte todavía."],
+	"el-cerdito-estatua-no-esta-aqui":["La estatua no está aquí."],
+	"el-cerdito-fundadores-estan-muertos":["No te rías de los muertos."],
+	"el-cerdito-no-regreso-todavía":["No quieres regresar por ahora."],
+	"el-cerdito-estatuas-pueden-esperar":["Las estatuas pueden esperar."],
+	"el-cerdito-panaderia-cerrada":["La verja de la panadería está cerrada."],
+	"el-cerdito-oficina-cerrada":["La puerta de la oficina está cerrada."],
+	"el-cerdito-no-incendio":["¿Dónde está el incendio?"],
+	"el-cerdito-puerta-bloqueada":["La puerta del retrete esta atascada."],
+	"las-puertas-estan-cerradas":["Las puertas están cerradas"],
+	"el-cerdito-ninos-corren":["Nada más salir, observas como un grupo de críos huye corriendo por el Oeste, entre risas."],
+	"la-rata-atascada-dentro":["La rata se ha quedado atascada en la entrada de la ratonera. Espero que el queso te esté sentando bien ¡Maldita rata!"],
+	"el-cerdito-la-rata-chilla":["Escuchas los chillidos agudos de un animalillo atascado."],
+	"aqui-no-quiero-dejar-la-caja":["Aquí no quiero dejar la caja."],
+	"ya-no-merece-dejar-la-caja":["La caja ya no hace falta... la rata está atascada en la ratonera"],
+	"el-cerdito-dejo-caja-en-almacen":["Dejas la caja, boca abajo, en el almacén. Este es el comienzo de una trampa para ratas."],
+	"la-rata-se-ha-comido-queso-trampa":["La rata se ha comido el queso."],
+	"el-cerdito-no-quiero-usar-la-trampa-sin-mas":["No quiero usar la trampa sin motivo."],
+	"el-cerdito-colocas-el-queso-en-la-caja":["Colocas el queso en la trampa"],
+	"el-cerdito-colocas-el-palo-en-la-caja":["Colocas el palo en la trampa"],
+	"el-cerdito-no-tengo-donde-atarla":["No sé donde atarla."],
+	"el-cerdito-colocas-la-cuerda-en-la-caja":["Colocas la cuerda en la trampa"],
+	"el-cerdito-no-merece-crear-trampa":["Ya no merece la pena, la rata se ha quedado atascada en la ratonera"],
+	"el-cerdito-chilla-atrapada":["¡Ñiiii! ¡ñiiii! La rata chilla atascada en la ratonera"],
+	"el-cerdito-no-quiero-usar-puerta-sin-mas":["No puedo usarla, está atascada."],
+	"el-cerdito-colocas-abres-la-puerta":["Introduces la palanca entre el marco y la puerta, y haces fuerzas hasta abrirla. "],
+	"el-cerdito-no-quiero-usar-ratonera-sin-mas":["No tienes ninguna razón."],
+	"el-cerdito-no-tiene-ningun-atasco":["No tiene ningún atasco."],
+	"el-cerdito-acaso-eres-ladron":["Breda: ¡Quieto! ¡Acaso eres un ladrón! ¡Si la coges me chivo!"],
+	"el-cerdito-brenda-no-deja-llevar-cuerda":["Brenda no deja que te lleves la cuerda"],
+	"el-cerdito-apreovechas-para-coger-la-cuerda":["Aprovechas la distracción para coger la cuerda."],
+	"el-cerdito-ya-tengo-cuerda":["Ya tienes la cuerda"],
+	"el-cerdito-aprovechas-para-llevarte-palo":["Aprovechas que el pasillo está vacío para coger el palo de escoba"],
+	"el-cerdito-coges-palo":["¡CLAK! El palo se rompe por la mitad superior. Te lo llevas."],
+	"conseguir-cita-a-kevin-primero":["Primero tienes que conseguirle una cita a Kevin."],
+	"el-cerdito-no-se-que-decirla":["No tienes nada que decir."],
+	"el-cerdito-tengo-que-hablar-con-kevin":["Tienes que hablar con kevin."],
+	"el-cerdito-deberia-hablar-con-brenda":["Deberias hablar con Brenda primero."],
+	"el-cerdito-no-quiero-entrometerme":["No quieres entrometerte, parecen muy acaramelados."],
+	"el-cerdito-kevin-canta-enamorado":["Escuchas a Kevin que canta enamorado."],
+	"el-cerdito-ooo-brenda-te-quiero":["Kevin: ¡oooo! ¡Brenda! ¡Te quiero! ¡Si pudiera estar a tu lado! ¡La,la,la!"],
+	"el-cerdito-nicholas-sequeja":["Escuchas las quejas de Nicholas."],
+	"el-cerdito-no-puedo-con-esos-dos":["Nicholas: Con Kevin cantando y Brenda llorando, no puedo ni pensar."],
+	"el-cerdito-nicholas-respira-tranquilo":["Escuchas a Nicholas respirar tranquilo."],
+	"el-cerdito-que-paz-dice-nicholas":["Que paz, menos mal que esos dos se han callado de una vez."],
+	"el-cerdito-brenda-llora":["Escuchas a Brenda llorar desconsolada."],
+	"el-cerdito-seguro-que-me-engaña":["Por qué no me contesta los mensajes ¡Snif! Seguro que me está engañando con otra ¡Snif!"],
+	"el-cerdito-brenda-kevin-acaramelados":["Esos dos parecen muy acaramelados y distraidos."]
+
+
+}

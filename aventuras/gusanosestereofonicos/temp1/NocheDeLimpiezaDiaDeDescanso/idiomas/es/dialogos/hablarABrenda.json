@@ -1,0 +1,135 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: ¿Qué quieres? Estoy muy ocupada"],
+			"clases":"fundido_entrada"
+		},
+		{"temaDeEntrada":"yAhora"},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"nuevoTema":"opcionesIniciales"}
+	],
+
+	"yAhora":
+	[
+
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Y ahora qué."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"nuevoTema":"opcionesIniciales"}
+	],
+
+	"opcionesIniciales":
+	[
+		
+		{
+			"opciones":
+			[
+				{"clave":"2","cadena":"Eres siempre tan repelente.","visible":true,"nuevoTema":"repelente"},
+				{"clave":"1","cadena":"No te veo muy contenta.","visible":true,"nuevoTema":"contenta"},
+				{"clave":"3","cadena":"Crees que terminaremos algún día","visible":true,"nuevoTema":"algunDia"},
+				{"clave":"4","cadena":"Por qué no le das una oportunidad a Kevin","visible":false,"nuevoTema":"kevinOportunidad"},
+				{"clave":"5","cadena":"Hasta otra","visible":true,"nuevoTema":"loDejo"}
+
+			]
+		}
+		
+	],
+
+	"contenta":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Verás Brady ¡Snif! Creo que mi novio me engaña con otra ¡Snif! ¡Snif!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Sabes que siempre ha sido un mujeriego."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Si pudiera darle una lección."],
+			"clases":"fundido_entrada"
+		},
+		{
+			"opcionVisible":
+			{
+				"tema":"opcionesIniciales",
+				"opcionACambiar":"4",
+				"visible":true
+			}
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"nuevoTema":"opcionesIniciales"}
+	],
+
+	"repelente":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Y tú ¡Siempre eres tan capullo!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Vale, ya me callo."],
+			"clases":"fundido_entrada"
+		}
+	],
+
+	"algunDia":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Si te callas y te pones a trabajar."],
+			"clases":"fundido_entrada"
+		}
+		
+	],
+	"loDejo":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Eso, vete lejos"],
+			"clases":"fundido_entrada"
+		}
+	],
+	"kevinOportunidad":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: ¡A Kevin! ese repelente"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: No digo que salgas con él, pero podrias darle celos a tu novio."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},					
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Veo que ahora piensas con claridad. Está bien."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"ejecutar_evento","evento":"ya_tengo_casi_la_cita"}
+	]
+
+}

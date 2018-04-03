@@ -1,0 +1,184 @@
+{
+"infoJuego":{
+	"titulo":"\nTutorial",
+	"autor":"el-gusano-aventurero.es",
+	"version":"0.1",
+	"copyright":"Creative Common 2017 algunos derechos reservados",
+	"sinopsis":"La casa donde vive Brady"
+},
+"tituloMapa":"casaDeBrady",
+
+
+
+"CasaBradySalonZonaInferiorEsc":{"es":"cuarto","nombre":"Mapa-casa-brady-salon-inferior-titulo","descripcion":"Mapa-casa-brady-salon-inferior-descripcion",
+					"descripcionCorta":"Mapa-casa-brady-salon-inferior-descripcion-corta",
+					"conexiones":{
+									"Norte":{"descripcion":"Mapa-casa-brady-salon-inferior-salida-norte","cuarto":"CasaBradySalonZonaSuperiorEsc","bloqueada":false,"textoBloqueada":"Mapa-casa-brady-salon-inferior-salida-norte-bloqueada"},
+									"Sur":{"descripcion":"Mapa-casa-brady-salon-inferior-salida-sur","cuarto":"CasaBradyJardinEsc","bloqueada":true,"textoBloqueada":"casa-brady-no-salir-sin-llaves"}
+					}
+				},
+
+
+				"ventanasSalonInferiorObj":{"es":"objeto","esta":"CasaBradySalonZonaInferiorEsc","nombre":"ventanas","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-ventana-descripcion","genero":"femenino","singular":false},
+
+				"muebleEntradaSalonInferiorObj":{"es":"objeto","esta":"CasaBradySalonZonaInferiorEsc","nombre":"mueble","preDe":"madera","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-mueble-entrada-descripcion","genero":"masculino","singular":true,
+					"contenedor":true,"abrirOcerrar":[false,false],"abiertoOcerrado":"abierto","bolsillo":["CajonSalonInferiorObj","mandoGarajeSalonInferiorObj","llavesBradyObj"]},
+
+				"televisionSalonInferiorObj":{"es":"objeto","esta":"CasaBradySalonZonaInferiorEsc","nombre":"televisor","preDe":"tubo","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-televisor-descripcion","genero":"masculino","singular":true},
+
+				"sofaSalonInferiorObj":{"es":"objeto","esta":"CasaBradySalonZonaInferiorEsc","nombre":"sofá","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-sofa-descripcion","genero":"masculino","singular":true,
+					"contenedor":true,"abrirOcerrar":[true,true],"abiertoOcerrado":"abierto","bolsillo":["petardoBradyObj"]},
+
+				"petardoBradyObj":{"es":"objeto","esta":"sofaSalonInferiorObj","nombre":"petardo","preDe":"colección","adjetivos":["enorme"],"atrezo":false,"scoger":true,
+					"descripcion":"casa-brady-salon-inferior-petardo-descripcion","genero":"masculino","singular":true},
+
+
+				"mesaMarmolSalonInferiorObj":{"es":"objeto","esta":"CasaBradySalonZonaInferiorEsc","nombre":"mesa","preDe":"mármol","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-mesa-marmol-descripcion","genero":"femenino","singular":true,
+					"contenedor":true,"abrirOcerrar":[false,false],"abiertoOcerrado":"abierto","bolsillo":["ventiladorDeManoSalonInferiorObj","restosDePizzaSalonInferiorObj","lataDeCervezaVaciaSalonInferiorObj","controlRemotoTelevisorSalonInferiorObj"]},
+
+				"CajonSalonInferiorObj":{"es":"objeto","esta":"muebleEntradaSalonInferiorObj","nombre":"cajón","atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-cajon-descripcion","genero":"masculino","singular":true,"seUneCon":{"usar":"con"},
+					"contenedor":true,"abrirOcerrar":[false,true],"abiertoOcerrado":"cerrado","bolsillo":["cintaAislanteBradyObj"]},
+				
+				"cintaAislanteBradyObj":{"es":"objeto","esta":"muebleEntradaSalonInferiorObj","nombre":"rollo","preDe":"cinta","adjetivos":["aislante"],"atrezo":false,"scoger":true,
+					"descripcion":"casa-brady-salon-inferior-cinta-aislante-descripcion","genero":"masculino","singular":true},
+
+
+
+				"llavesBradyObj":{"es":"objeto","esta":"muebleEntradaSalonInferiorObj","nombre":"manojo","preDe":"llaves","atrezo":false,"scoger":true,
+					"descripcion":"casa-brady-salon-inferior-llaves-descripcion","genero":"masculino","singular":true},
+
+				"controlRemotoTelevisorSalonInferiorObj":{"es":"objeto","esta":"mesaMarmolSalonInferiorObj","nombre":"control","preDe":"televisión","adjetivos":["remoto"],"atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-mando-tele-descripcion","genero":"masculino","singular":true},
+
+				"mandoGarajeSalonInferiorObj":{"es":"objeto","esta":"muebleEntradaSalonInferiorObj","nombre":"mando","atrezo":false,"scoger":true,
+					"descripcion":"casa-brady-salon-inferior-mando-garaje-descripcion","genero":"masculino","singular":true,"seUneCon":{"usar":"con"}},
+
+				"ventiladorDeManoSalonInferiorObj":{"es":"objeto","esta":"mesaMarmolSalonInferiorObj","nombre":"ventilador","preDe":"mano","atrezo":false,"scoger":true,
+					"descripcion":"casa-brady-salon-inferior-ventilador-descripcion","genero":"masculino","singular":true},
+
+
+				"restosDePizzaSalonInferiorObj":{"es":"objeto","esta":"mesaMarmolSalonInferiorObj","nombre":"pizza","preDe":"salami","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-restos-pizza-descripcion","genero":"femenino","singular":true},
+
+				"lataDeCervezaVaciaSalonInferiorObj":{"es":"objeto","esta":"mesaMarmolSalonInferiorObj","nombre":"lata","preDe":"cerveza","adjetivos":["vacía"],"atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-inferior-lata-cerveza-descripcion","genero":"femenino","singular":true},
+
+
+"CasaBradySalonZonaSuperiorEsc":{"es":"cuarto","nombre":"Mapa-casa-brady-salon-superior-titulo","descripcion":"Mapa-casa-brady-salon-superior-descripcion",
+					"descripcionCorta":"Mapa-casa-brady-salon-superior-descripcion-corta",
+					"conexiones":{"Oeste":{"descripcion":"Mapa-casa-brady-salon-superior-salida-oeste","cuarto":"","bloqueada":true,"textoBloqueada":"Mapa-casa-brady-salon-superior-salida-oeste-bloqueada"},
+								"Sur":{"descripcion":"Mapa-casa-brady-salon-superior-salida-sur","cuarto":"CasaBradySalonZonaInferiorEsc"},
+								"subir":{"descripcion":"Mapa-casa-brady-salon-superior-salida-subir","cuarto":"","bloqueada":true,"textoBloqueada":"Mapa-casa-brady-salon-superior-salida-subir-bloqueada"},
+								"entrar":{"descripcion":"Mapa-casa-brady-salon-superior-salida-entrar","cuarto":"CasaBradyCocinaEsc"}
+					}
+				},
+
+				"mesaSalonSuperiorObj":{"es":"objeto","esta":"CasaBradySalonZonaSuperiorEsc","nombre":"mesa","adjetivos":["enorme"],"atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-superior-mesa-descripcion","genero":"femenino","singular":true},
+
+				"sillasSalonSuperiorObj":{"es":"objeto","esta":"CasaBradySalonZonaSuperiorEsc","nombre":"sillas","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-superior-sillas-descripcion","genero":"femenino","singular":false},
+
+				"calaveraSalonSuperiorObj":{"es":"objeto","esta":"CasaBradySalonZonaSuperiorEsc","nombre":"calavera","preDe":"cristal","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-salon-superior-calavera-descripcion","genero":"femenino","singular":true},
+
+"CasaBradyCocinaEsc":{"es":"cuarto","nombre":"Mapa-casa-brady-cocina-titulo","descripcion":"Mapa-casa-brady-cocina-descripcion",
+					"descripcionCorta":"Mapa-casa-brady-cocina-descripcion-corta",
+					"conexiones":{"salir":{"descripcion":"Mapa-casa-brady-cocina-salida-salir","cuarto":"CasaBradySalonZonaSuperiorEsc","bloqueada":false,"textoBloqueada":"casa-brady-cocina-salida-salir-bloqueada"}}
+				},
+
+
+				"frigorificoCocinaObj":{"es":"objeto","esta":"CasaBradyCocinaEsc","nombre":"frigorífico","adjetivos":["viejo"],"atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-cocina-frigorifico-descripcion","genero":"masculino","singular":true},
+
+				"encimeraCocinaObj":{"es":"objeto","esta":"CasaBradyCocinaEsc","nombre":"encimera","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-cocina-encimera-descripcion","genero":"femenino","singular":true,
+					"contenedor":true,"abrirOcerrar":[true,true],"abiertoOcerrado":"abierto","bolsillo":["encendedorCocinaObj"]},
+
+				"encendedorCocinaObj":{"es":"objeto","esta":"encimeraCocinaObj","nombre":"encendedor","preDe":"conina","atrezo":false,"scoger":true,
+					"descripcion":"casa-brady-cocina-encendedor-descripcion","genero":"masculino","singular":true},
+
+				"fregaderoCocinaObj":{"es":"objeto","esta":"CasaBradyCocinaEsc","nombre":"fregadero","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-cocina-fregadero-descripcion","genero":"masculino","singular":true},	
+
+				"fogonesCocinaObj":{"es":"objeto","esta":"CasaBradyCocinaEsc","nombre":"fogones","preDe":"gas","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-cocina-fogones-descripcion","genero":"masculino","singular":false,"seUneCon":{"usar":"con"}},
+
+				"microondasCocinaObj":{"es":"objeto","esta":"CasaBradyCocinaEsc","nombre":"microondas","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-microondas-fregadero-descripcion","genero":"masculino","singular":true},	
+	
+
+
+
+
+"CasaBradyJardinEsc":{"es":"cuarto","nombre":"Mapa-casa-brady-jardin-titulo","descripcion":"Mapa-casa-brady-jardin-descripcion",
+					"descripcionCorta":"Mapa-casa-brady-jardin-descripcion-corta",
+					"conexiones":{"Norte":{"descripcion":"Mapa-casa-brady-jardin-salida-norte","cuarto":"CasaBradySalonZonaInferiorEsc","bloqueada":false},
+								"Sur":{"descripcion":"Mapa-casa-brady-jardin-salida-sur","cuarto":"CasaBradyJardinEsc","bloqueada":true,"textoBloqueada":"Mapa-casa-brady-jardin-salida-sur-bloqueada"},
+								"entrar":{"descripcion":"Mapa-casa-brady-jardin-salida-entrar","cuarto":"CasaBradyGarajeEsc","bloqueada":true,"textoBloqueada":"Mapa-casa-brady-jardin-salida-entrar-bloqueada"}
+					}
+				},
+
+				"parcelaJardinObj":{"es":"objeto","esta":"CasaBradyJardinEsc","nombre":"parcelas","preDe":"hierba","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-jardin-parcelas-de-hierba-descripcion","genero":"femenino","singular":false},
+
+				"caminilloJardinObj":{"es":"objeto","esta":"CasaBradyJardinEsc","nombre":"camino","preDe":"piedra","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-jardin-caminillo-descripcion","genero":"masculino","singular":true},
+
+				"puertaEntradaJardinObj":{"es":"objeto","esta":"CasaBradyJardinEsc","nombre":"puerta","preDe":"entrada","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-jardin-puerta-entrada-descripcion","genero":"femenino","singular":true,"seUneCon":{"usar":"con"}},
+
+				"casaJardinObj":{"es":"objeto","esta":"CasaBradyJardinEsc","nombre":"casa","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-jardin-casa-descripcion","genero":"femenino","singular":true},
+
+				"hogarJardinObj":{"es":"objeto","esta":"CasaBradyJardinEsc","nombre":"hogar","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-jardin-casa-descripcion","genero":"masculino","singular":true},
+
+
+				"panelJardinObj":{"es":"objeto","esta":"CasaBradyJardinEsc","nombre":"panel","atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-jardin-panel-descripcion","genero":"masculino","singular":true,
+					"contenedor":true,"abrirOcerrar":[true,true],"abiertoOcerrado":"cerrado","bolsillo":["cablesJardinObj"]},
+				
+				"cablesJardinObj":{"es":"objeto","esta":"panelJardinObj","nombre":"cables","adjetivos":["pelados","cortados"],"atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-jardin-cables-descripcion","genero":"masculino","singular":false,"seUneCon":{"usar":"con"}},
+
+
+"CasaBradyGarajeEsc":{"es":"cuarto","nombre":"Mapa-casa-brady-garaje-titulo","descripcion":"Mapa-casa-brady-garaje-descripcion",
+					"descripcionCorta":"Mapa-casa-brady-garaje-descripcion-corta",
+					"conexiones":{"salir":{"descripcion":"Mapa-casa-brady-garaje-salir","cuarto":"CasaBradyJardinEsc","bloqueada":false}
+					}
+				},
+
+				"bateriaGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"batería","atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-garaje-bateria-descripcion","genero":"femenino","singular":true},
+
+				"bajoGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"bajo","adjetivos":["eléctrico"],"atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-garaje-bajo-descripcion","genero":"masculino","singular":true},
+
+				"guitarraGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"guitarra","adjetivos":["eléctrica"],"atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-garaje-guitarra-descripcion","genero":"femenino","singular":true},
+
+				"tecladosGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"teclados","atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-garaje-teclados-descripcion","genero":"masculino","singular":false},
+
+				"bicicletaGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"bicicleta","preDe":"montaña","atrezo":false,"scoger":false,
+					"descripcion":"casa-brady-garaje-bicicleta-descripcion","genero":"femenino","singular":true},
+
+				"polvoGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"nubes","preDe":"polvo","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-garaje-polvo-descripcion","genero":"femenino","singular":false},
+
+				"mugreGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"montón","preDe":"mugre","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-garaje-mugre-descripcion","genero":"masculino","singular":true},
+
+				"recuerdosDeRoqueroGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"recuerdos","preDe":"roquero","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-garaje-recuerdos-de-roquero-descripcion","genero":"masculino","singular":false},
+
+				"recuerdosDeBandaGarajeObj":{"es":"objeto","esta":"CasaBradyGarajeEsc","nombre":"recuerdos","preDe":"banda","atrezo":true,"scoger":false,
+					"descripcion":"casa-brady-garaje-recuerdos-de-banda-descripcion","genero":"masculino","singular":false}
+}

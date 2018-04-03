@@ -1,0 +1,563 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Entras en El Cerdito apresurado mientras tus compañeros se sorprenden de tu llegada"],
+			"clases":"fundido_entrada",
+			"tiempo":4000
+		},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Vaya, vaya… mira quien ha aparecido a tiempo para la reunión."],
+			"clases":"fundido_entrada",
+			"tiempo":3000
+		},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Brenda se frota los ojos al verte llegar "],
+			"clases":"fundido_entrada",
+			"tiempo":2000
+		},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: ¡Increible! Brady llegando a tiempo a su puesto de trabajo."],
+			"clases":"fundido_entrada",
+			"tiempo":3000
+		},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Casi sin aliento, intentas articular palabra."],
+			"clases":"fundido_entrada",
+			"tiempo":2000
+		},
+
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Brady presentándose a su puesto sin retraso","visible":true,"nuevoTema":"PareceMentiraQueYaEstesAqui"},
+				{"clave":"2","cadena":"¡Qué os den chavales! esta vez he llegado a tiempo","visible":true,"nuevoTema":"AcasoQuieresUnaFiesta"}
+			]
+		}
+		
+	],
+
+	"PareceMentiraQueYaEstesAqui":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: ¿Qué pasa contigo? Pase a recogerte, aporree tu puesta sin descanso, pero no dabas señales de vida."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Tuve pequeños problemas técnicos con el sofá…"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Seguro que te quedaste dormido otra vez."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: ¡Cállate Brenda!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Je,je... ya lo me lo imaginaba"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"comoSientaLaResponsabilidad"}
+	],
+
+	"AcasoQuieresUnaFiesta":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Acaso quieres una fiesta por tu increíble proeza."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: ¿Proeza? Yo diría que ha sido un milagro."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: ¡Que exagerados! Por un par de veces que he llegado tarde."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Las voces de tus dos compañeros se entrelazan, al mismo tiempo, gritándote al oído"],
+			"clases":"fundido_entrada",
+			"tiempo":3000
+		},
+		{
+			"tipo":"brendaAct",
+			"cadena":["¡Pero si nunca llegas a tu hora!"],
+			"clases":"fundido_entrada",
+			"alinear":"center",
+			"tamaFuente":"1.60rem"
+		},
+		{
+			"tipo":"kevinAct",
+			"cadena":["¡Si jamas te presentas a tiempo!"],
+			"clases":"fundido_entrada",
+			"alinear":"center",
+			"tamaFuente":"1.60rem"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"nuevoTema":"comoSientaLaResponsabilidad"}
+	],
+
+	"comoSientaLaResponsabilidad":
+	[
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Está bien, está bien, dejadle en paz. Y dime muchacho, que se siente a ser responsable por primera vez"],
+			"clases":"fundido_entrada",
+			"tiempo":4000
+		},
+		{	
+			"opciones":
+			[
+				{"clave":"1","cadena":"Absolutamente nada.","visible":true,"nuevoTema":"AunEsPronto"},
+				{"clave":"2","cadena":"Creo que gases.","visible":true,"nuevoTema":"CreoQueGases"},
+				{"clave":"2","cadena":"No puedo explicarlo con palabras.","visible":true,"nuevoTema":"TranquiloChicoYaLoPillaras"}
+			]
+		}
+	],
+	"AunEsPronto":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Seguro que no tienes alma."],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"comienzaReunion"}
+	],
+	"CreoQueGases":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Eres un guarro."],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"comienzaReunion"}
+	],
+	"TranquiloChicoYaLoPillaras":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Tranquilo chaval, ya lo pillarás con el tiempo."],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"comienzaReunion"}
+	],
+
+	"comienzaReunion":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Muy bien chicos, demos comienzo a la reunión, Sabéis que ha sido una dura época para nuestra empresa. ",
+							"Los precios no han dejado de subir desde que George y Anne, fundadores de la cadena El Cerdito, ",
+							"fallecieran en un accidente de coche dejando la empresa a manos de su hijo Willian."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Ese niño rico de ciudad no es más que un ladrón que juega con el trabajo de sus empleados."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: Pues ojala tuviera yo todo ese dinero."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Ojalá yo pudiera dártelo."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: No seas repelente Kevin. El caso es que Willian y su gestión han llevado a esta cadena, de tiendas, a la ruina."],
+			"clases":"fundido_entrada"
+		},	
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"nuevoTema":"opcionesPrimerNivel"}	
+	],
+			
+	"opcionesPrimerNivel":
+	[
+		{	
+			"opciones":
+			[
+				{"clave":"1","cadena":"Cuéntanos más sobre George y Anne","visible":true,"nuevoTema":"SobreLaPareja"},
+				{"clave":"2","cadena":"Cuéntanos más sobre Willian","visible":true,"nuevoTema":"SobreWillian"},
+				{"clave":"3","cadena":"Cuéntanos sobre la mala gestión de Willian","visible":false,"nuevoTema":"MalaGestion"},
+				{"clave":"4","cadena":"Cuéntanos sobre La Dirección","visible":false,"nuevoTema":"LaDireccion"}
+			]
+		}
+	],
+		
+	"SobreLaPareja":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Pues… aunque os parezca mentira, George, nació y paso toda su niñez aquí, en Cambrill. ",
+						"Él vivió de primera mano la pobreza que este pueblo rezumaba por aquel entonces. Su familia era muy pobre, ",
+						"y su padre se veía obligado a trabajar muy lejos de casa, para poder llevar algo de dinero a su familia."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: ¡Increible! No sabía que este pueblo educara a grandes empresarios."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Cuando George cumplió la mayoría de edad, se marcho de casa para estudiar en la gran ciudad. Fue ",
+						"allí donde conoció a Anne, una joven de familia adinerada de la que quedó completamente enamorado. George, ",
+						"totalmente prendado de Anne, ocultó su pobreza, encontró un trabajo de camarero y comenzó a estudiar dirección ",
+						"de empresas en la misma clase de Anne."],
+			"clases":"fundido_entrada"
+		},
+
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"¡Puf! Déjalo aquí, esta historia es muy aburrida.","visible":true,"nuevoTema":"EstaBienMejorOtroTema"},
+				{"clave":"2","cadena":"¡Qué interesante! Sigue, sigue…","visible":true,"nuevoTema":"SobreLaPareja2"}
+			]
+		}
+	],	
+
+	"SobreLaPareja2":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: George comenzó a acercarse a Anne, cuidándola y mimándola con lo poco que tenía. Con el tiempo, Anne ",
+						"se enamoro de George y comenzaron a salir juntos. Al finalizar los estudios, los padres de Anne pagaron su boda y como regalo, ingresaron ",
+						"a la pareja una gran cantidad de dinero para que crearan su propio negocio."],
+			"clases":"fundido_entrada"
+		},
+
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Así fue que nació la gran cadena de alimentación El Cerdito, y así dio inicio la gran fortuna de ",
+						"George y anne."],
+			"clases":"fundido_entrada"
+		},
+
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"¡Déjalo ya! ¡Por favor! Me estoy durmiendo","visible":true,"nuevoTema":"EstaBienMejorOtroTema"},
+				{"clave":"2","cadena":"Cuéntanos más por favor.","visible":true,"nuevoTema":"SobreLaPareja3"}
+			]
+		}
+	],
+	"SobreLaPareja3":
+	[
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Pero George nunca se olvidó de su familia ni de su pueblo, y con el tiempo, logró convencer a su mujer ",
+						"para llevar una de sus tiendas hasta Cambrill. Fue así que George comenzó a dar trabajo a muchos de los habitantes ",
+						"del pueblo. Compro camionetas de reparto y camiones que enviaba sus almacenes de la gran ciudad, para que nunca ",
+						"faltara de nada en su tienda."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Además, George también invirtió dinero dentro del pueblo, ayudo a algunos de sus ",
+						"habitantes para que abrieran sus propios negocios aquí. En realidad, George y Anne fueron nuestros ",
+						"salvadores. Sin ellos, a día de hoy, este pueblo sería un estercolero."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"opcionesPrimerNivel"}	
+	],
+	"EstaBienMejorOtroTema":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas:Esta bien, mejor tratamos otro tema."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"opcionesPrimerNivel"}	
+	],
+
+	"SobreWillian":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Willian es el único hijo que George y Anne han traído a este mundo."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Willian nunca a conocido la pobreza, y siempre a vivido entre los cariños ",
+					"y regalos de sus padres. Nunca le ha faltado de nada, siempre ha estudiado en las mejores ",
+					"escuelas y ha recibido los mejores modales, aun así, y a diferencia de su padre, Willian ",
+					"es un auténtico malcriado."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: Yo diría que es un auténtico capullo que no piensa ni en su empresa, ni en sus trabajadores."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Cuando los padres de Willian murieron, la empresa pasó, de manera legal, a manos de su único hijo. ",
+						"Pero Willian no era el empresario que sus padres esperaban."],
+			"clases":"fundido_entrada"
+		},
+		{
+			"opcionVisible":
+			{
+				"tema":"opcionesPrimerNivel",
+				"opcionACambiar":"3",
+				"visible":true
+			}
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+
+		{"nuevoTema":"opcionesPrimerNivel"}	
+	],
+
+	"MalaGestion":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Después de pasar el tiempo de luto, William tomó oficialmente la empresa de sus padres. ",
+						"Fue entonces que comenzó el espectáculo."],
+			"clases":"fundido_entrada"
+		},
+
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: fue una auténtica fiesta para William."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: William, despidió a muchos de sus trabajadores, subió los precios de sus productos rebajando su calidad ",
+							"y redujo los sueldos de sus empleados hasta el mínimo. De modo, que hasta nuestros mejores clientes, dejaron de comprar en nuestros ",
+							"establecimientos."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: A día de hoy, muchos de los ciudadanos de Cambrill prefieren coger el coche para ir a comprar a la ciudad."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: William no paraba de gastar su dinero en fiestas, lujos y buena comida. Tan desorbitados ",
+						"fueron sus gastos y tan bajas las ventas que al final la cuenta de Willian entró en números  rojos, ",
+						"perdiendo el control de la situación y llevándonos a todos a la ruina."],
+
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: No miento al deciros que hemos estado a punto de acabar en la calle, si no fuera por la Directiva que acabó comprando la empresa."],
+
+			"clases":"fundido_entrada"
+		},
+		{
+			"opcionVisible":
+			{
+				"tema":"opcionesPrimerNivel",
+				"opcionACambiar":"4",
+				"visible":true
+			}
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"opcionesPrimerNivel"}	
+	],
+
+	"LaDireccion":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: hasta hace unos días todo parecía perdido, incluso se barajaba la idea de comenzar a cerrar ",
+						"tiendas para mantener la empresa a flote. Pero entonces, llegó a la ciudad un reducido, pero poderoso ",
+						"grupo de empresarios, que se dieron a conocer con el nombre de…"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["¡La Directiva!"],
+			"clases":"fundido_entrada",
+			"tamaFuente":"1.40rem",
+			"alinear":"center"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Se reunieron con William en privado, y por lo que sé, le ofrecieron una buena cantidad de dinero ",
+						"por su empresa. Después de esa reunión, William desapareció sin dejar rastro, y la empresa paso a manos de ",
+						"los nuevos empresarios."],
+			"clases":"fundido_entrada"
+		},
+
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"OpcionesFinales"}	
+	],
+
+	"OpcionesFinales":
+	[
+		{	
+			"opciones":
+			[
+				{"clave":"1","cadena":"De dónde viene ese grupo de empresarios.","visible":true,"nuevoTema":"noTengoNiIdea"},
+				{"clave":"2","cadena":"De qué va todo esto de la inauguración.","visible":true,"nuevoTema":"NuevaBebida"},
+				{"clave":"3","cadena":"Dejémonos de cháchara.","visible":true,"nuevoTema":"AlLioTios"}
+			]
+		}
+	],
+
+	"noTengoNiIdea":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: No tengo ni idea, de ellos sé, lo mismo que vosotros."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"OpcionesFinales"}	
+	],
+
+	"NuevaBebida":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: la nueva directiva quiere introducir un nuevo refresco, de marca propia, en nuestras tiendas. Y van a estrenar esa bebida aquí, en Cambrill,",
+						"para hacer las primeras valoraciones sobre el producto."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: dices qué quieren utilizar a los ciudadanos de Cambrill como conejillos de indias."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Brenda, no acuses así a nuestros nuevos jefes. Si esa es su estrategia, así será. Total, sólo quieren recopilar datos."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{"tipo":"orden_interna","cadena":"borrar_textos"},
+		{"nuevoTema":"OpcionesFinales"}	
+	],
+
+	"AlLioTios":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Llevas razón, es hora de empezar a limpiar y a preparar la tienda para el Lunes."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: ¡Brenda! Tu te encargarás de limpiar las secciones de limpieza, celulosa y higiene personal."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"brendaAct",
+			"cadena":["Brenda: ¡Sí señor!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: ¡Kevin! Tú te haras cargo de las secciones de refrescos, licores, vinos y cervezas."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"kevinAct",
+			"cadena":["Kevin: ¡Entendido señor!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: ¡Brady! Tú colocarás el cartel de la vitrina exterior, la tabla de precios del atril  y limpiarás el resto de pasillos."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: ¡Qué tela!"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"temaInicial":"inicio",
+	"inicio":
+	[
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Muy bien Brady, veo que ya has terminado. Pues nada, que pases buena noche."],
+			"clases":"fundido_entrada"
+		},
+
+		{
+			"opciones":
+			[
+				{"clave":"1","cadena":"Y tú Nicholas, no te vas a casa.","visible":true,"nuevoTema":"NoPuedoIrACasa"},
+				{"clave":"2","cadena":"igualmente Nicholas.","visible":true,"nuevoTema":"FinalConversacion"}
+			]
+		}
+		
+	],
+	"NoPuedoIrACasa":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: No puedo, este es el lugar de encuentro con la Directiva, y no sé cuando ",
+						"van a llegar. Quiero estar preparado para cualquier cosa."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Hasta mañana Nicholas."],
+			"clases":"fundido_entrada"
+		},
+		{"nuevoTema":"FinalConversacion"}
+	],
+
+	"FinalConversacion":
+	[
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Recuerda, el lunes te quiero aquí a las ocho de la mañana para la inaguración."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Recuerda, Al finalizar la próxima semana, comienzan mis vacaciones."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"nicholasAct",
+			"cadena":["Nicholas: Eso si que te interesa… pero… ya veremos, ya veremos."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"descripcion_escenario",
+			"cadena":["Sales al exterior de la tienda mientras Nicholas cierra las puertas por dentro"],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: En realidad me da pena, está demasiado preocupado con todo esto de la nueva dirección."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"},
+		{
+			"tipo":"bradyAct",
+			"cadena":["Brady: Bueno, bueno, será mejor volver a casa."],
+			"clases":"fundido_entrada"
+		},
+		{"tipo":"orden_interna","cadena":"esperar_tecla"}
+	]
+
+}
